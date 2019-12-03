@@ -508,7 +508,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.0.1
     ```
 
-    > **Note**: The **dotnet add package** command will add the **[Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.0.1)** package from NuGet.
+    > **Note**: The **dotnet add package** command will add the **Microsoft.EntityFrameworkCore.SqlServer** package from **NuGet**. For more information, go to: [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.0.1).
 
 1.  At the command prompt, enter the following command, and then select Enter to import version 3.4.1 of **Microsoft.Azure.Cosmos** from NuGet:
 
@@ -516,7 +516,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     dotnet add package Microsoft.Azure.Cosmos --version 3.4.1
     ```
 
-    > **Note**: The **dotnet add package** command will add the **[Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1)** package from NuGet.
+    > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
 1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
 
@@ -807,7 +807,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
     dotnet add package Microsoft.Azure.Cosmos --version 3.4.1
     ```
 
-    > **Note**: The **dotnet add package** command will add the **[Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1)** package from NuGet.
+    > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
 1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
 
