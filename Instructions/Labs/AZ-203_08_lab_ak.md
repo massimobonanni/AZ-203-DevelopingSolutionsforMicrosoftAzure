@@ -46,7 +46,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: If this is your first time signing in to the Azure portal, a dialog box will appear offering a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
+    > **Note**: If this is your first time signing in to the Azure portal, you will be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
 #### Task 2: Create an Azure web app resource by using an httpbin container image
 

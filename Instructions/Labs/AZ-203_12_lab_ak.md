@@ -313,7 +313,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 1.  On the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
 
-    > **Note**: It can take up to 5 minutes for requests to appear in the Application Insights metrics charts.
+    > **Note**: It can take up to five minutes to observe requests in the Application Insights metrics charts.
 
 #### Review
 
@@ -455,7 +455,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  On the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
 
-    > **Note**: It can take up to five minutes for requests to appear in the Application Insights metrics charts.
+    > **Note**: It can take up to five minutes to observe requests in the Application Insights metrics charts.
 
 #### Task 4: View real-time metrics in Application Insights
 
@@ -493,9 +493,9 @@ In this exercise, you deployed your web application to Azure App Service and mon
 
     > **Note**: The **Cloud Shell** icon is represented by a greater than sign (\>) and underscore character (\_).
 
-1.  If this is your first time opening Cloud Shell using your subscription, the **Welcome to Azure Cloud Shell Wizard** will appear, which allows you to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
+1.  If this is your first time opening Cloud Shell using your subscription, you can use the **Welcome to Azure Cloud Shell Wizard** to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
     
-    1.  A dialog box will appear that prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**. 
+    1.  A dialog box prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**. 
 
     > **Note**: Wait for Cloud Shell to finish its initial setup procedures before moving forward with the lab. If you don't notice the Cloud Shell configuration options, this is most likely because you're using an existing subscription with this course's labs. The labs are written with the presumption that you're using a new subscription.
 

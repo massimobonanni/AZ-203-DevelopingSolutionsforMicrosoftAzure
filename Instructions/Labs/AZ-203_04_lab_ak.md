@@ -50,7 +50,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: If this is your first time signing in to the Azure portal, a dialog box will appear offering a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
+    > **Note**: If this is your first time signing in to the Azure portal, you will be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
 #### Task 2: Create an Azure SQL Database server resource
 
@@ -352,7 +352,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  Select **Run** to run the query, and then observe the results.
 
-    > **Note**: This query will return a list of models that will appear on the home page of the web application.
+    > **Note**: This query will return a list of models on the home page of the web application.
 
 1.  In the query editor, replace the existing query with the following query:
 
@@ -1102,9 +1102,9 @@ In this exercise, you wrote C# code to query an Azure Cosmos DB collection by us
 
     > **Note**: The **Cloud Shell** icon is represented by a greater than sign (\>) and underscore character (\_).
 
-1.  If this is your first time opening Cloud Shell using your subscription, the **Welcome to Azure Cloud Shell Wizard** will appear, which allows you to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
+1.  If this is your first time opening Cloud Shell using your subscription, you can use the **Welcome to Azure Cloud Shell Wizard** to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
     
-    1.  A dialog box will appear that prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**.
+    1.  A dialog box prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**.
     
     > **Note**: Wait for the Cloud Shell to finish its initial setup procedures before moving forward with the lab.If you don't notice the Cloud Shell configuration options, this is most likely because you're using an existing subscription with this course's labs. The labs are written with the presumption that you're using a new subscription.
 

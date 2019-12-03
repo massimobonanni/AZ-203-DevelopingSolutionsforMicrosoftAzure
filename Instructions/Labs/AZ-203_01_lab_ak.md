@@ -452,7 +452,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.	Observe that the list of gallery images has updated with your new image.
 
-    > **Note**: In some rare cases, you might need to refresh your browser window for the new image to appear.
+    > **Note**: In some rare cases, you might need to refresh your browser window to retrieve the new image.
 
 1.	Return to your browser window with the Azure portal.
 
@@ -470,9 +470,9 @@ In this exercise, you created an Azure web app and deployed an existing web appl
 
     > **Note**: The **Cloud Shell** icon is represented by a greater than sign (\>) and underscore character (\_).
 
-1.  If this is your first time opening Cloud Shell using your subscription, the **Welcome to Azure Cloud Shell Wizard** will appear, which allows you to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
+1.  If this is your first time opening Cloud Shell using your subscription, you can use the **Welcome to Azure Cloud Shell Wizard** to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
     
-    1.  A dialog box will appear that prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**.
+    1.  A dialog box prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**.
     
     1.  Wait for Cloud Shell to finish its initial setup procedures before moving forward with the lab.
 
