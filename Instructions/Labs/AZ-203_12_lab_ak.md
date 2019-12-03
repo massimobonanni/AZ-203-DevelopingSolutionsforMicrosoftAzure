@@ -44,11 +44,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
-1.  On the sign-in page, enter the email address for your Microsoft account, and then select **Next**.
+1.  From the sign-in page, enter the email address for your Microsoft account, and then select **Next**.
 
 1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
@@ -58,19 +58,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** box.
 
 1.  In the search box, enter **Insights**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Application Insights** result.
+1.  From the **Everything** search results blade, select the **Application Insights** result.
 
-1.  On the **Application Insights** blade, select **Create**.
+1.  From the **Application Insights** blade, select **Create**.
 
-1.  Find the tabs on the second **Application Insights** blade, such as **Basics**.
+1.  Find the tabs from the second **Application Insights** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new Application Insights instance. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -82,7 +82,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the Application Insights instance by using your specified configuration.   
 
@@ -90,11 +90,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
 
-1.  On the **Application Insights** blade, in the **Configure** category, select the **Properties** link.
+1.  From the **Application Insights** blade, in the **Configure** category, select the **Properties** link.
 
 1.  In the **Properties** section, find the value of the **Instrumentation Key** box. This key is used by client applications to connect to Application Insights.
 
@@ -102,19 +102,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Web App** result.
+1.  From the **Everything** search results blade, select the **Web App** result.
 
-1.  On the **Web App** blade, select **Create**.
+1.  From the **Web App** blade, select **Create**.
 
-1.  Find the tabs on the second **Web App** blade, such as **Basics**.
+1.  Find the tabs from the second **Web App** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new web app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -136,7 +136,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Monitoring**.
 
-1.  On the **Monitoring** tab, perform the following actions:
+1.  From the **Monitoring** tab, perform the following actions:
 
     1.  In the **Enable Application Insights** section, select **Yes**.
 
@@ -144,7 +144,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the web app by using your specified configuration.   
 
@@ -152,11 +152,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
 
-1.  On the **App Service** blade, in the **Settings** category, select the **Configuration** link.
+1.  From the **App Service** blade, in the **Settings** category, select the **Configuration** link.
 
 1.  In the **Configuration** section, perform the following actions:
     
@@ -166,13 +166,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Find the value corresponding to the **APPINSIGHTS\_INSTRUMENTATIONKEY** key. This value was set automatically when you built your Web Apps resource.
 
-1.  On the **App Service** blade, in the **Settings** category, select the **Properties** link.
+1.  From the **App Service** blade, in the **Settings** category, select the **Properties** link.
 
 1.  In the **Properties** section, record the value of the **URL** box. You'll use this value later in the lab to make requests against the API.
 
 #### Task 4: Configure web app autoscale options
 
-1.  On the **App Service** blade, in the **Settings** category, select the **Scale out (App Service Plan)** link.
+1.  From the **App Service** blade, in the **Settings** category, select the **Scale out (App Service Plan)** link.
 
 1.  In the **Scale out** section, perform the following actions:
     
@@ -204,9 +204,9 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 #### Task 1: Build a .NET Core Web API project
 
-1.  On the taskbar, select the **Visual Studio Code** icon.
+1.  From the taskbar, select the **Visual Studio Code** icon.
 
-1.  On the **File** menu, select **Open Folder**.
+1.  From the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\12\\Starter\\Api**, and then select **Select Folder**.
 
@@ -291,7 +291,7 @@ In this exercise, you created the resources that you'll use for the remainder of
     dotnet run
     ```
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the **/weatherforecast** relative path of your test application that's hosted at **localhost** on port **5000**.
     
@@ -307,11 +307,11 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 1.  In the portal, select **Resource groups**.
 
-1.  On the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
 
-1.  On the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
+1.  From the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
 
     > **Note**: It can take up to five minutes to observe requests in the Application Insights metrics charts.
 
@@ -323,9 +323,9 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 #### Task 1: Deploy an application to the web app
 
-1.  On the taskbar, select the **Visual Studio Code** icon.
+1.  From the taskbar, select the **Visual Studio Code** icon.
 
-1.  On the **File** menu, select **Open Folder**.
+1.  From the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\12\\Starter\\Api**, and then select **Select Folder**.
 
@@ -387,11 +387,11 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
 
-1.  On the **App Service** blade, select **Browse**. A new browser window or tab will open and return a "404 (Not Found)" error.
+1.  From the **App Service** blade, select **Browse**. A new browser window or tab will open and return a "404 (Not Found)" error.
 
 1.  In the browser address bar, update the URL by appending the suffix **/weatherforecast** to the end of the current URL, and then select Enter.
 
@@ -405,13 +405,13 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **smpapi\*** web app that you created earlier in this lab.
 
-1.  On the **App Service** blade, select **Application Insights**.
+1.  From the **App Service** blade, select **Application Insights**.
 
-1.  On the **Application Insights** blade, perform the following actions:
+1.  From the **Application Insights** blade, perform the following actions:
 
     1.  Ensure that the **Application Insights** section is set to **Enabled**.
 
@@ -431,7 +431,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  Close the **Application Insights** blade.
 
-1.  Back on the **App Service** blade, select **Browse**. A new browser window or tab will open and return a "404 (Not Found)" error.
+1.  Back from the **App Service** blade, select **Browse**. A new browser window or tab will open and return a "404 (Not Found)" error.
 
 1.  In the browser address bar, update the URL by appending the suffix **/weatherforecast** to the end of the current URL, and then select Enter.
 
@@ -449,11 +449,11 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  In the portal, select **Resource groups**.
 
-1.  On the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
 
-1.  On the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
+1.  From the **Application Insights** blade, in the tiles in the center of the blade, find the displayed metrics. Specifically, find the number of server requests that have occurred and the average server response time.
 
     > **Note**: It can take up to five minutes to observe requests in the Application Insights metrics charts.
 
@@ -463,13 +463,13 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  In the portal, select **Resource groups**.
 
-1.  On the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **MonitoredAssets** resource group that you created earlier in this lab.
 
-1.  On the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
+1.  From the **MonitoredAssets** blade, select the **instrm\*** Application Insights account that you created earlier in this lab.
 
-1.  On the **Application Insights** blade, select **Live Metrics Stream** in the **Investigate** section.
+1.  From the **Application Insights** blade, select **Live Metrics Stream** in the **Investigate** section.
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the new browser window, go to the URL that you recorded earlier in this lab.
 

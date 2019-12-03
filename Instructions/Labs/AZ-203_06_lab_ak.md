@@ -40,7 +40,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the **Azure portal** (<https://portal.azure.com>).
 
@@ -54,17 +54,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **Storage Accounts**.
+1.  From the **All services** blade, select **Storage Accounts**.
 
-1.  On the **Storage accounts** blade, find your list of Storage instances.
+1.  From the **Storage accounts** blade, find your list of Storage instances.
 
-1.  On the **Storage accounts** blade, select **Add**.
+1.  From the **Storage accounts** blade, select **Add**.
 
-1.  Find the tabs on the **Create storage account** blade, such as **Basics**.
+1.  Find the tabs from the **Create storage account** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new storage account. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
 
@@ -84,7 +84,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the storage account by using your specified configuration. 
 
@@ -92,13 +92,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **Storage Accounts**.
+1.  From the **All services** blade, select **Storage Accounts**.
 
-1.  On the **Storage accounts** blade, select the storage account instance with the prefix "securestor".
+1.  From the **Storage accounts** blade, select the storage account instance with the prefix "securestor".
 
-1.  On the **Storage account** blade, find the **Settings** section, and then select the **Access keys** link.
+1.  From the **Storage account** blade, find the **Settings** section, and then select the **Access keys** link.
 
-1.  On the **Access keys** blade, select any one of the keys and record the value in either of the **Connection string** boxes. You'll use this value later in this lab.
+1.  From the **Access keys** blade, select any one of the keys and record the value in either of the **Connection string** boxes. You'll use this value later in this lab.
 
     > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
@@ -106,19 +106,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
 
 1.  In the search box, enter **Vault**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Key Vault** result.
+1.  From the **Everything** search results blade, select the **Key Vault** result.
 
-1.  On the **Key Vault** blade, select **Create**.
+1.  From the **Key Vault** blade, select **Create**.
 
-1.  Find the tabs on the **Create key vault** blade, such as **Basics**.
+1.  Find the tabs from the **Create key vault** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new key vault. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -132,7 +132,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the key vault by using your specified configuration. 
 
@@ -142,19 +142,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
 
 1.  In the search box, enter **Function**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Function App** result.
+1.  From the **Everything** search results blade, select the **Function App** result.
 
-1.  On the **Function App** blade, select **Create**.
+1.  From the **Function App** blade, select **Create**.
 
-1.  Find the tabs on the **Function App** blade, such as **Basics**.
+1.  Find the tabs from the **Function App** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new function app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -170,7 +170,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Next: Hosting**.
 
-1.  On the **Hosting** tab, perform the following actions:
+1.  From the **Hosting** tab, perform the following actions:
 
     1.  In the **Storage account** drop-down list, select the **securestor\*** storage account that you created earlier in this lab.
 
@@ -180,13 +180,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Monitoring**.
 
-1.  On the **Monitoring** tab, perform the following actions:
+1.  From the **Monitoring** tab, perform the following actions:
 
     1.  In the **Enable Application Insights** section, select **No**.
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the function app by using your specified configuration. 
 
@@ -202,15 +202,15 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
 
-1.  On the **Function Apps** blade, select the **Platform features** tab.
+1.  From the **Function Apps** blade, select the **Platform features** tab.
 
-1.  On the **Platform features** tab, select the **Identity** link in the **Networking** section.
+1.  From the **Platform features** tab, select the **Identity** link in the **Networking** section.
 
-1.  On the **Identity** blade, find the **System assigned** tab, and then perform the following actions:
+1.  From the **Identity** blade, find the **System assigned** tab, and then perform the following actions:
     
     1.  In the **Status** section, select **On**, and then select **Save**.
     
@@ -222,15 +222,15 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securevault\*** key vault that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securevault\*** key vault that you created earlier in this lab.
 
-1.  On the **Key Vault** blade, select the **Secrets** link in the **Settings** section.
+1.  From the **Key Vault** blade, select the **Secrets** link in the **Settings** section.
 
 1.  In the Secrets pane, select **Generate/Import**.
 
-1.  On the **Create a secret** blade, perform the following actions:
+1.  From the **Create a secret** blade, perform the following actions:
     
     1.  In the **Upload options** drop-down list, select **Manual**.
     
@@ -266,19 +266,19 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securevault\*** key vault that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securevault\*** key vault that you created earlier in this lab.
 
-1.  On the **Key Vault** blade, select the **Access policies** link in the **Settings** section.
+1.  From the **Key Vault** blade, select the **Access policies** link in the **Settings** section.
 
 1.  In the Access policies pane, select **Add Access Policy**.
 
-1.  On the **Add access policy** blade, perform the following actions:
+1.  From the **Add access policy** blade, perform the following actions:
     
     1.  Select the **Select principal** link.
     
-    1.  On the **Principal** blade, find and then select the service principal named **securefunc*yourname***, and then select **Select**.
+    1.  From the **Principal** blade, find and then select the service principal named **securefunc*yourname***, and then select **Select**.
     
     1.  Leave the **Key permissions** list set to its default value.
     
@@ -304,13 +304,13 @@ In this exercise, you created a server-assigned managed service identity for you
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
 
-1.  On the **Function Apps** blade, select the **Platform features** tab.
+1.  From the **Function Apps** blade, select the **Platform features** tab.
 
-1.  On the **Platform features** tab, select the **Configuration** link in the **General Settings** section.
+1.  From the **Platform features** tab, select the **Configuration** link in the **General Settings** section.
 
 1.  In the **Configuration** section, perform the following actions:
     
@@ -326,7 +326,7 @@ In this exercise, you created a server-assigned managed service identity for you
 
     1.  Select **OK** to close the pop-up window and return to the **Configuration** section.
     
-    1.  Select **Save** on the blade to persist your settings.  
+    1.  Select **Save** from the blade to persist your settings.  
 
     > **Note**: Wait for your application settings to persist before you move forward with the lab.
 
@@ -334,11 +334,11 @@ In this exercise, you created a server-assigned managed service identity for you
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
 
-1.  On the **Function App** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
+1.  From the **Function App** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
 
 1.  In the **New Azure Function** quickstart, perform the following actions:
     
@@ -379,7 +379,7 @@ In this exercise, you created a server-assigned managed service identity for you
 
         return name != null
             ? (ActionResult)new OkObjectResult($"Hello, {name}")
-            : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+            : new BadRequestObjectResult("Please pass a name from the query string or in the request body");
     }
     ```
 
@@ -456,11 +456,11 @@ In this exercise, you used a service identity to read the value of a secret stor
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securestor\*** storage account that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securestor\*** storage account that you created earlier in this lab.
 
-1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section.
+1.  From the **Storage account** blade, select the **Containers** link in the **Blob service** section.
 
 1.  In the **Containers** section, select **+ Container**.
 
@@ -472,7 +472,7 @@ In this exercise, you used a service identity to read the value of a secret stor
 
 1.  Back in the **Containers** section, select the newly created **drop** container.
 
-1.  On the **Container** blade, select **Upload**.
+1.  From the **Container** blade, select **Upload**.
 
 1.  In the **Upload blob** pop-up window, perform the following actions:
     
@@ -484,11 +484,11 @@ In this exercise, you used a service identity to read the value of a secret stor
 
     > **Note**: Wait for the blob to upload before you continue with this lab.
 
-1.  Back on the **Container** blade, select the **records.json** blob in the list of blobs.
+1.  Back from the **Container** blade, select the **records.json** blob in the list of blobs.
 
-1.  On the **Blob** blade, find the blob metadata, and then copy the URL for the blob.
+1.  From the **Blob** blade, find the blob metadata, and then copy the URL for the blob.
 
-1.  On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
+1.  From the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
 1.  In the new browser window, go to the URL that you copied for the blob.
 
@@ -496,7 +496,7 @@ In this exercise, you used a service identity to read the value of a secret stor
 
 1.  Return to the browser window with the Azure portal, and then close the **Blob** blade.
 
-1.  Back on the **Container** blade, select **Change access level policy**.
+1.  Back from the **Container** blade, select **Change access level policy**.
 
 1.  In the **Change access level** pop-up window, perform the following actions:
     
@@ -504,7 +504,7 @@ In this exercise, you used a service identity to read the value of a secret stor
     
     1.  Select **OK**.
 
-1.  On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
+1.  From the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
 1.  In the new browser window, go to the URL that you copied for the blob.
 
@@ -516,17 +516,17 @@ In this exercise, you used a service identity to read the value of a secret stor
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **SecureFunction** resource group that you created earlier in this lab.
 
-1.  On the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
+1.  From the **SecureFunction** blade, select the **securefunc\*** function app that you created earlier in this lab.
 
-1.  On the **Function App** blade, find and then select the existing **FileParser** function to open the editor for the function.
+1.  From the **Function App** blade, find and then select the existing **FileParser** function to open the editor for the function.
 
     > **Note**: You might need to expand the **Functions** option in the menu of the blade.
 
 1.  In the editor, select **View files** to open the tab.
 
-1.  On the **View files** tab, select **Add**.
+1.  From the **View files** tab, select **Add**.
 
 1.  In the **File name** dialog box, enter **function.proj**, and then select Enter, which displays an empty code editor.
 

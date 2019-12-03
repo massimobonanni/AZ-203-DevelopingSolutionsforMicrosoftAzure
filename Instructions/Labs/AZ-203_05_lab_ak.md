@@ -40,7 +40,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
@@ -54,21 +54,21 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-    > **Note**: If you can't find the **Create a resource** link, the **Create a resource** icon is a plus sign (+) character on the portal.
+    > **Note**: If you can't find the **Create a resource** link, the **Create a resource** icon is a plus sign (+) character from the portal.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
 
 1.  In the search box, enter the text **Resource Group**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Resource group** result.
+1.  From the **Everything** search results blade, select the **Resource group** result.
 
-1.  On the **Resource group** blade, select **Create**.
+1.  From the **Resource group** blade, select **Create**.
 
-1.  On the additional **Resource group** blade, find the tabs on the blade, such as **Basics**.
+1.  From the additional **Resource group** blade, find the tabs from the blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new resource group. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -78,7 +78,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the resource group by using your specified configuration.  
 
@@ -313,15 +313,15 @@ In this exercise, you used Cloud Shell to create a VM as part of an automated sc
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
 
 1.  In the search box, enter **Container Registry**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Container Registry** result.
+1.  From the **Everything** search results blade, select the **Container Registry** result.
 
-1.  On the **Container Registry** blade, select **Create**.
+1.  From the **Container Registry** blade, select **Create**.
 
-1.  On the **Create container registry** blade, perform the following actions:
+1.  From the **Create container registry** blade, perform the following actions:
 
     1.  In the **Registry name** text box, give your registry a globally unique name.
 
@@ -399,15 +399,15 @@ In this exercise, you used Cloud Shell to create a VM as part of an automated sc
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
 
-1.  On the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
+1.  From the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
 
-1.  On the **Container Registry** blade, find the **Services** section, and then select the **Repositories** link.
+1.  From the **Container Registry** blade, find the **Services** section, and then select the **Repositories** link.
 
 1.  In the **Repositories** section, select the **ipcheck** container image repository.
 
-1.  On the **Repository** blade, select the **latest** tag.
+1.  From the **Repository** blade, select the **latest** tag.
 
 1.  Find the metadata for the version of your container image with the **latest** tag.
 
@@ -423,13 +423,13 @@ In this exercise, you created a .NET Core console application to display a machi
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
 
-1.  On the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
+1.  From the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
 
-1.  On the **Container Registry** blade, select **Update**.
+1.  From the **Container Registry** blade, select **Update**.
 
-1.  On the **Update container registry** blade, perform the following actions:
+1.  From the **Update container registry** blade, perform the following actions:
     
     -   In the **Admin user** section, select **Enable**, and the select **Save**.
     
@@ -437,15 +437,15 @@ In this exercise, you created a .NET Core console application to display a machi
 
 #### Task 2: Automatically deploy a container image to an Azure container instance
 
-1.  On the **Container Registry** blade, find the **Services** section, and then select the **Repositories** link.
+1.  From the **Container Registry** blade, find the **Services** section, and then select the **Repositories** link.
 
 1.  In the **Repositories** section, select the **ipcheck** container image repository.
 
-1.  On the **Repository** blade, select the ellipsis menu associated with the **latest** tag entry.
+1.  From the **Repository** blade, select the ellipsis menu associated with the **latest** tag entry.
 
 1.  In the pop-up menu, select the **Run instance** link.
 
-1.  On the **Create container instance** blade, perform the following actions:
+1.  From the **Create container instance** blade, perform the following actions:
     
     1.  In the **Container name** text box, enter **managedcompute**.
     
@@ -473,11 +473,11 @@ In this exercise, you created a .NET Core console application to display a machi
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
 
-1.  On the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
+1.  From the **ContainerCompute** blade, select the container registry that you created earlier in this lab.
 
-1.  On the **Container Registry** blade, find the **Settings** section, and then select the **Access keys** link.
+1.  From the **Container Registry** blade, find the **Settings** section, and then select the **Access keys** link.
 
 1.  In the **Access Keys** section, record the values for the following fields:
     
@@ -491,19 +491,19 @@ In this exercise, you created a .NET Core console application to display a machi
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
 
 1.  In the search box, enter **Container instance**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Container Instances** result.
+1.  From the **Everything** search results blade, select the **Container Instances** result.
 
-1.  On the **Container Instances** blade, select **Create**.
+1.  From the **Container Instances** blade, select **Create**.
 
-1.  Find the tabs on the **Create Container Instances** blade, such as **Basics** and **Advanced**.
+1.  Find the tabs from the **Create Container Instances** blade, such as **Basics** and **Advanced**.
 
     > **Note**: Each tab represents a step in the workflow to create a new container instance.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
 
     1.  Leave the **Subscription** text box set to its default value.
 
@@ -529,7 +529,7 @@ In this exercise, you created a .NET Core console application to display a machi
 
     1.  In the **Size** section, select the **Change size** link.
 
-    1.  On the **Change container size** blade, perform the following actions:
+    1.  From the **Change container size** blade, perform the following actions:
 
         1.  In the **Number of CPU cores** text box, enter **1**.
 
@@ -541,7 +541,7 @@ In this exercise, you created a .NET Core console application to display a machi
     
     1.  Select **Next: Networking**.
 
-1.  On the **Networking** tab, perform the following actions:
+1.  From the **Networking** tab, perform the following actions:
     
     1.  In the **Include Public IP address** section, select **Yes**.
 
@@ -551,7 +551,7 @@ In this exercise, you created a .NET Core console application to display a machi
 
     1.  Select **Next: Advanced**.
 
-1.  On the **Advanced** tab, perform the following actions:
+1.  From the **Advanced** tab, perform the following actions:
     
     1.  In the **Restart policy** drop-down list, select **On failure**.
     
@@ -561,7 +561,7 @@ In this exercise, you created a .NET Core console application to display a machi
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the selected options.
+1.  From the **Review + Create** tab, review the selected options.
 
 1.  Select **Create** to create the container instance by using your specified configuration.  
 
@@ -571,11 +571,11 @@ In this exercise, you created a .NET Core console application to display a machi
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **ContainerCompute** resource group that you created earlier in this lab.
 
-1.  On the **ContainerCompute** blade, select the **manualcompute** container instance that you created earlier in this lab.
+1.  From the **ContainerCompute** blade, select the **manualcompute** container instance that you created earlier in this lab.
 
-1.  On the **Container Instance** blade, find the **Settings** section, and then select the **Containers** link.
+1.  From the **Container Instance** blade, find the **Settings** section, and then select the **Containers** link.
 
 1.  In the **Containers** section, find the list of **Events**.
 

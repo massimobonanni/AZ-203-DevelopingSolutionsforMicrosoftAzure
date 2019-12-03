@@ -42,7 +42,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the Azure portal ([portal.azure.com](https://portal.azure.com)).
 
@@ -56,17 +56,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **SQL servers**.
+1.  From the **All services** blade, select **SQL servers**.
 
-1.  On the **SQL servers** blade, find your list of SQL server instances.
+1.  From the **SQL servers** blade, find your list of SQL server instances.
 
-1.  On the **SQL servers** blade, select **Add**.
+1.  From the **SQL servers** blade, select **Add**.
 
-1.  On the **Create SQL Database Server** blade, observe the tabs on the blade, such as **Basics**, **Networking**, and **Additional settings**.
+1.  From the **Create SQL Database Server** blade, observe the tabs from the blade, such as **Basics**, **Networking**, and **Additional settings**.
 
     > **Note**: Each tab represents a step in the workflow to create a new Azure SQL Database server. You can select **Review + Create** at any time to skip the remaining tabs.
 
-    1.  On the **Basics** tab, perform the following actions:
+    1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** drop-down list set to its default value.
     
@@ -84,13 +84,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Networking**.
 
-1.  On the **Networking** tab, perform the following actions:
+1.  From the **Networking** tab, perform the following actions:
 
     1.  In the **Allow Azure services and resources to access this server** section, select **Yes**.
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the SQL Database server by using your specified configuration.
 
@@ -100,17 +100,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **Azure Cosmos DB**.
+1.  From the **All services** blade, select **Azure Cosmos DB**.
 
-1.  On the **Azure Cosmos DB** blade, find your list of Azure Cosmos DB instances.
+1.  From the **Azure Cosmos DB** blade, find your list of Azure Cosmos DB instances.
 
-1.  On the **Azure Cosmos DB** blade, select **Add**.
+1.  From the **Azure Cosmos DB** blade, select **Add**.
 
-1.  On the **Create Azure Cosmos DB Account** blade, observe the tabs on the blade, such as **Basics**, **Network**, and **Tags**.
+1.  From the **Create Azure Cosmos DB Account** blade, observe the tabs from the blade, such as **Basics**, **Network**, and **Tags**.
 
     > **Note**: Each tab represents a step in the workflow to create a new Azure Cosmos DB account. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** list set to its default value.
     
@@ -130,7 +130,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the Azure Cosmos DB account by using your specified configuration.
 
@@ -138,11 +138,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and then select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and then select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
 
-1.  On the **Azure Cosmos DB account** blade, find the **Settings** section on the blade, and then select the **Keys** link.
+1.  From the **Azure Cosmos DB account** blade, find the **Settings** section from the blade, and then select the **Keys** link.
 
 1.  In the Keys pane, record the value in the **PRIMARY CONNECTION STRING** box. You'll use this value later in this lab.
 
@@ -150,17 +150,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **Storage Accounts**.
+1.  From the **All services** blade, select **Storage Accounts**.
 
-1.  On the **Storage accounts** blade, find your list of Storage instances.
+1.  From the **Storage accounts** blade, find your list of Storage instances.
 
-1.  On the **Storage accounts** blade, select **Add**.
+1.  From the **Storage accounts** blade, select **Add**.
 
-1.  On the **Create storage account** blade, observe the tabs on the blade, such as **Basics**, **Advanced**, and **Tags**.
+1.  From the **Create storage account** blade, observe the tabs from the blade, such as **Basics**, **Advanced**, and **Tags**.
 
     > **Note**: Each tab represents a step in the workflow to create a new Azure Storage account. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** list set to its default value.
     
@@ -180,7 +180,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the storage account by using your specified configuration.
 
@@ -196,11 +196,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
 
-1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section on the blade.
+1.  From the **Storage account** blade, select the **Containers** link in the **Blob service** section from the blade.
 
 1.  In the **Containers** section, select **+ Container**.
 
@@ -214,13 +214,13 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  Back in the **Containers** section, select the newly created **images** container.
 
-1.  On the **Container** blade, find the **Settings** section on the blade, and then select the **Properties** link.
+1.  From the **Container** blade, find the **Settings** section from the blade, and then select the **Properties** link.
 
 1.  In the Properties pane, record the value in the **URL** box. You'll use this value later in this lab.
 
-1.  Find and select the **Overview** link on the blade.
+1.  Find and select the **Overview** link from the blade.
 
-1.  On the blade, select **Upload**.
+1.  From the blade, select **Upload**.
 
 1.  In the **Upload blob** pop-up, perform the following actions:
     
@@ -236,11 +236,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
 
-1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section on the blade.
+1.  From the **Storage account** blade, select the **Containers** link in the **Blob service** section from the blade.
 
 1.  In the **Containers** section, select **+ Container**.
 
@@ -254,7 +254,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  Back in the **Containers** section, select the newly created **databases** container.
 
-1.  On the **Container** blade, select **Upload**.
+1.  From the **Container** blade, select **Upload**.
 
 1.  In the **Upload blob** pop-up, perform the following actions:
     
@@ -270,25 +270,25 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
 
-1.  On the **SQL server** blade, select **Import database**.
+1.  From the **SQL server** blade, select **Import database**.
 
-1.  On the **Import database** blade, perform the following actions:
+1.  From the **Import database** blade, perform the following actions:
 
     1.  Leave the **Subscription** list set to its default value.
 
     1.  Select the **Storage** option.
 
-    1.  On the **Storage accounts** blade, select the **polystor\*** storage account that you created earlier in this lab. 
+    1.  From the **Storage accounts** blade, select the **polystor\*** storage account that you created earlier in this lab. 
 
-    1.  On the **Containers** blade, select the **databases** container that you created earlier in this lab. 
+    1.  From the **Containers** blade, select the **databases** container that you created earlier in this lab. 
 
-    1.  On the **Container** blade, select the **AdventureWorks.bacpac** blob that you created earlier in this lab, and then select **Select** to close the blade.
+    1.  From the **Container** blade, select the **AdventureWorks.bacpac** blob that you created earlier in this lab, and then select **Select** to close the blade.
 
-    1.  Back on the **Import database** blade, leave the **Pricing tier** option set to its default value.
+    1.  Back from the **Import database** blade, leave the **Pricing tier** option set to its default value.
 
     1.  In the **Database name** text box, enter **AdventureWorks**.
 
@@ -306,11 +306,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
 
-1.  On the **SQL server** blade, find the **Security** section on the blade, and then select the **Firewalls and virtual networks** link.
+1.  From the **SQL server** blade, find the **Security** section from the blade, and then select the **Firewalls and virtual networks** link.
 
 1.  In the Firewalls and virtual networks pane, select **Add client IP**, and then select **Save**.
 
@@ -318,11 +318,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **AdventureWorks** SQL database that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **AdventureWorks** SQL database that you created earlier in this lab.
 
-1.  On the **SQL database** blade, find the **Settings** section on the blade, and then select the **Connection strings** link.
+1.  From the **SQL database** blade, find the **Settings** section from the blade, and then select the **Connection strings** link.
 
 1.  In the Connection strings pane, record the value in the **ADO.NET (SQL Authentication)** box. You'll use this value later in this lab.
 
@@ -334,7 +334,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
         > **Note**: For example, if your connection string was originally ``Server=tcp:polysqlsrvrinstructor.database.windows.net,1433;Initial Catalog=AdventureWorks;User ID={your_username};Password={your_password};``, your updated connection string will be ``Server=tcp:polysqlsrvrinstructor.database.windows.net,1433;Initial Catalog=AdventureWorks;User ID=testuser;Password=TestPa55w.rd;``
 
-1.  Find and select the **Query editor** link on the blade.
+1.  Find and select the **Query editor** link from the blade.
 
 1.  In the Query editor pane, perform the following actions:
 
@@ -352,7 +352,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  Select **Run** to run the query, and then observe the results.
 
-    > **Note**: This query will return a list of models on the home page of the web application.
+    > **Note**: This query will return a list of models from the home page of the web application.
 
 1.  In the query editor, replace the existing query with the following query:
 
@@ -372,9 +372,9 @@ In this exercise, you imported all the resources that you'll use with your web a
 
 #### Task 1: Open and build the web application
 
-1.  On the **Start** screen, select the **Visual Studio Code** tile.
+1.  From the **Start** screen, select the **Visual Studio Code** tile.
 
-1.  On the **File** menu, select **Open Folder**.
+1.  From the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\04\\Starter\\AdventureWorks**, and then select **Select Folder**.
 
@@ -446,15 +446,15 @@ In this exercise, you imported all the resources that you'll use with your web a
 
     > **Note**: The **dotnet run** command will automatically build any changes to the project and then start the web application without a debugger attached. The command will output the URL of the running application and any assigned ports.
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
-1.  In the web application, observe the list of models displayed on the front page.
+1.  In the web application, observe the list of models displayed from the front page.
 
 1.  Find the **Water Bottle** model, and then select **View Details**.
 
-1.  On the **Water Bottle** product detail page, find **Add to Cart**, and then observe that the checkout functionality is currently disabled.
+1.  From the **Water Bottle** product detail page, find **Add to Cart**, and then observe that the checkout functionality is currently disabled.
 
     > **Note**: For now, only the product page functionality is implemented. You'll implement the checkout logic later in this lab.
 
@@ -532,7 +532,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 1.  Open the **Program.cs** file.
 
-1.  On the code editor tab for the **Program.cs** file, delete all the code in the existing file.
+1.  From the code editor tab for the **Program.cs** file, delete all the code in the existing file.
 
 1.  Add the following lines of code to import the **AdventureWorks.Models** and **AdventureWorks.Context** namespaces from the referenced **AdventureWorks.Models** and **AdventureWorks.Context** projects:
 
@@ -755,11 +755,11 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  On the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  On the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
 
-1.  On the **Azure Cosmos DB account** blade, find and select the **Data Explorer** link on the blade.
+1.  From the **Azure Cosmos DB account** blade, find and select the **Data Explorer** link from the blade.
 
 1.  In the Data Explorer pane, expand the **Retail** database node.
 
@@ -767,7 +767,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
     > **Note**: The label for this option might be hidden. You can get labels by hovering over the icons in the Data Explorer pane.
 
-1.  On the query tab, enter the following text:
+1.  From the query tab, enter the following text:
 
     ```
     SELECT * FROM models
@@ -825,7 +825,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
 1.  At the new file prompt, enter **AdventureWorksCosmosContext.cs**.
 
-1.  On the code editor tab for the **AdventureWorksCosmosContext.cs** file, add the following lines of code to import the **AdventureWorks.Models** namespace from the referenced **AdventureWorks.Models** project:
+1.  From the code editor tab for the **AdventureWorksCosmosContext.cs** file, add the following lines of code to import the **AdventureWorks.Models** namespace from the referenced **AdventureWorks.Models** project:
 
     ```
     using AdventureWorks.Models;
@@ -1070,15 +1070,15 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
     > **Note**: The **dotnet run** command will automatically build any changes to the project and then start the web application without a debugger attached. The command will output the URL of the running application and any assigned ports.
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
-1.  In the web application, observe the list of models displayed on the front page.
+1.  In the web application, observe the list of models displayed from the front page.
 
 1.  Find the **Touring-1000** model, and then select **View Details**.
 
-1.  On the **Touring-1000** product detail page, perform the following actions:
+1.  From the **Touring-1000** product detail page, perform the following actions:
 
     1.  In the **Select options** list, select **Touring-1000 Yellow, 50, $2,384.07**.
     

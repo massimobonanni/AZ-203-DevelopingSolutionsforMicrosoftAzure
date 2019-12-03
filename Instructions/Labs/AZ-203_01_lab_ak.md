@@ -44,7 +44,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
@@ -58,13 +58,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  On the **All services** blade, select **Storage Accounts**.
+1.  From the **All services** blade, select **Storage Accounts**.
 
-1.  On the **Storage accounts** blade, get your list of storage account instances.
+1.  From the **Storage accounts** blade, get your list of storage account instances.
 
-1.  On the **Storage accounts** blade, select **Add**.
+1.  From the **Storage accounts** blade, select **Add**.
 
-1.  On the **Create storage account** blade, observe the tabs on the blade, such as **Basics**, **Tags**, and **Review + Create**.
+1.  From the **Create storage account** blade, observe the tabs from the blade, such as **Basics**, **Tags**, and **Review + Create**.
 
     > **Note**: Each tab represents a step in the workflow to create a new storage account. At any time, you can select **Review + Create** to skip the remaining tabs.
 
@@ -88,17 +88,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you specified in the previous steps.
+1.  From the **Review + Create** tab, review the options that you specified in the previous steps.
 
 1.  Select **Create** to create the storage account by using your specified configuration.
 
-1.  On the **Deployment** blade, wait for the creation task to complete before moving forward with this lab.
+1.  From the **Deployment** blade, wait for the creation task to complete before moving forward with this lab.
 
-1.	Select the **Go to resource** button on the **Deployment** blade to go to the newly created storage account.
+1.	Select the **Go to resource** button from the **Deployment** blade to go to the newly created storage account.
 
-1.	On the **Storage account** blade, find the **Settings** section, and then select **Access keys**.
+1.	From the **Storage account** blade, find the **Settings** section, and then select **Access keys**.
 
-1.	On the **Access keys** blade, select any one of the keys, and then record the value of either of the **Connection string** boxes. You'll use this value later in this lab.
+1.	From the **Access keys** blade, select any one of the keys, and then record the value of either of the **Connection string** boxes. You'll use this value later in this lab.
 
     > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
@@ -106,11 +106,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  On the **ManagedPlatform** blade, select the **imgstor\*** storage account that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgstor\*** storage account that you created earlier in this lab.
 
-1.  On the **Storage Account** blade, in the **Blob service** section, select the **Containers** link.
+1.  From the **Storage Account** blade, in the **Blob service** section, select the **Containers** link.
 
 1.  In the **Containers** section, select **+ Container**.
 
@@ -122,7 +122,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the **Containers** section, select the newly created **images** container.
 
-1.	On the **Container** blade, select **Upload**.
+1.	From the **Container** blade, select **Upload**.
 
 1.	In the **Upload blob** window, perform the following actions:
 
@@ -136,19 +136,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Web App** result.
+1.  From the **Everything** search results blade, select the **Web App** result.
 
-1.  On the **Web App** blade, select **Create**.
+1.  From the **Web App** blade, select **Create**.
 
-1.  On the second **Web App** blade, find the tabs on the blade, such as **Basics**.
+1.  From the second **Web App** blade, find the tabs from the blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new web app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -170,13 +170,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Monitoring**.
 
-1.  On the **Monitoring** tab, perform the following actions:
+1.  From the **Monitoring** tab, perform the following actions:
 
     1.  In the **Enable Application Insights** section, select **No**.
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the web app by using your specified configuration. Wait for the creation task to complete before you move forward with this lab.
 
@@ -184,11 +184,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  On the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
 
-1.  On the **Web App** blade, in the **Settings** section, select the **Configuration** link.
+1.  From the **Web App** blade, in the **Settings** section, select the **Configuration** link.
 
 1.  In the **Configuration** section, perform the following actions:
     
@@ -200,19 +200,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Leave the **Deployment slot setting** box set to its default value, and then select **OK** to close the pop-up dialog and return to the **Configuration** section.
     
-    1.  Select **Save** on the blade to persist your settings.
+    1.  Select **Save** from the blade to persist your settings.
   
     Wait for your application settings to persist before you move forward with the lab.
 
-1.  On the **Web App** blade in the **Settings** section, select the **Properties** link.
+1.  From the **Web App** blade in the **Settings** section, select the **Properties** link.
 
 1.  In the **Properties** section, copy the value of the **URL** box. You'll use this value later in the lab.
 
 #### Task 6: Deploy an ASP.NET Core web application to Web Apps
 
-1.  On the taskbar, select the **Visual Studio Code** icon.
+1.  From the taskbar, select the **Visual Studio Code** icon.
 
-1.  On the **File** menu, select **Open Folder**.
+1.  From the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\01\\Starter\\API**, and then select **Select Folder**.
 
@@ -224,7 +224,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the **ImagesController** class on line 55, observe the **Post** method and the code used to persist an uploaded image to  Storage.
 
-1.  On the taskbar, select the **Windows Terminal** icon.
+1.  From the taskbar, select the **Windows Terminal** icon.
 
 1.  At the open command prompt, enter the following command, and then select Enter to sign in to the Azure Command-Line Interface (CLI):
 
@@ -276,11 +276,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.	On the **Resource groups** blade, find and select the **ManagedPlatform** resource group that you created earlier in this lab.
+1.	From the **Resource groups** blade, find and select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.	On the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
+1.	From the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
 
-1.	On the **Web App** blade, select **Browse**.
+1.	From the **Web App** blade, select **Browse**.
 
 1.	Perform a GET request to the root of the website, and then observe the JavaScript Object Notation (JSON) array that's returned. This array should contain the URL for your single uploaded image in your Storage account.
 
@@ -298,19 +298,19 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Web App** result.
+1.  From the **Everything** search results blade, select the **Web App** result.
 
-1.  On the **Web App** blade, select **Create**.
+1.  From the **Web App** blade, select **Create**.
 
-1.  On the second **Web App** blade, find the tabs on the blade, such as **Basics**.
+1.  From the second **Web App** blade, find the tabs from the blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new web app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -330,13 +330,13 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
     1.  Select **Next: Monitoring**.
 
-1.  On the **Monitoring** tab, perform the following actions:
+1.  From the **Monitoring** tab, perform the following actions:
 
     1.  In the **Enable Application Insights** section, select **No**.
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the web app by using your specified configuration. Wait for the creation task to complete before you move forward with this lab.
 
@@ -344,11 +344,11 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  On the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
 
-1.  On the **Web App** blade, in the **Settings** section, select the **Configuration** link.
+1.  From the **Web App** blade, in the **Settings** section, select the **Configuration** link.
 
 1.  In the **Configuration** section, perform the following actions:
     
@@ -364,15 +364,15 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
     1.  Select **OK** to close the pop-up dialog, and then return to the **Configuration** section.
     
-    1.  Select **Save** on the blade to persist your settings.
+    1.  Select **Save** from the blade to persist your settings.
   
     Wait for your application settings to persist before you move forward with the lab.
 
 #### Task 3: Deploy an ASP.NET Core web application to Web Apps
 
-1.  On the taskbar, select the **Visual Studio Code** icon.
+1.  From the taskbar, select the **Visual Studio Code** icon.
 
-1.  On the **File** menu, select **Open Folder**.
+1.  From the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\01\\Starter\\Web**, and then select **Select Folder**.
 
@@ -382,7 +382,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  In the **IndexModel** class on line 41, observe the **OnPostAsync** method and the code used to stream an uploaded image to the back-end API.
 
-1.  On the taskbar, select the **Windows Terminal** icon.
+1.  From the taskbar, select the **Windows Terminal** icon.
 
 1.  At the open command prompt, enter the following command, and then select Enter to sign in to the Azure CLI:
 
@@ -434,15 +434,15 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.	In the Azure portal's navigation pane, select **Resource groups**.
 
-1.	On the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
+1.	From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.	On the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
+1.	From the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
 
-1.	On the **Web App** blade, select **Browse**.
+1.	From the **Web App** blade, select **Browse**.
 
 1.	Observe the list of images in the gallery. The gallery should list a single image that was uploaded to Storage earlier in the lab.
 
-1.	On the **Contoso Photo Gallery** webpage, find the **Upload a new image** section, and then perform the following actions:
+1.	From the **Contoso Photo Gallery** webpage, find the **Upload a new image** section, and then perform the following actions:
     
     1.  Select **Browse**.
     

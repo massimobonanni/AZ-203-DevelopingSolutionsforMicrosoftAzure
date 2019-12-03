@@ -38,7 +38,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  On the taskbar, select the **Microsoft Edge** icon.
+1.  From the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
@@ -52,19 +52,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **Web App** result.
+1.  From the **Everything** search results blade, select the **Web App** result.
 
-1.  On the **Web App** blade, select **Create**.
+1.  From the **Web App** blade, select **Create**.
 
-1.  On the second **Web App** blade, find the tabs on the blade, such as **Basics**.
+1.  From the second **Web App** blade, find the tabs from the blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new web app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  On the **Basics** tab, perform the following actions:
+1.  From the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -84,7 +84,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Docker**.
 
-1.  On the **Docker** tab, perform the following actions:
+1.  From the **Docker** tab, perform the following actions:
 
     1.  In the **Options** drop-down list, select **Single Container**.
 
@@ -96,7 +96,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Review + Create**.
 
-1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the web app by using your specified configuration. 
 
@@ -106,11 +106,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
 
-1.  On the **ManagedPlatform** blade, select the **httpapi\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **httpapi\*** web app that you created earlier in this lab.
 
-1.	On the **Web App** blade, select **Browse**.
+1.	From the **Web App** blade, select **Browse**.
 
 1.  Within the web application, perform the following actions:
 
@@ -130,7 +130,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Find the **Web App** blade for the **httpapi\*** web app back in the Azure portal.
 
-1.  On the **Web App** blade, in the **Settings** section, select the **Properties** link.
+1.  From the **Web App** blade, in the **Settings** section, select the **Properties** link.
 
 1.  In the **Properties** section, record the value of the **URL** box. You'll use this value later in the lab to make requests against the API.
 
@@ -144,15 +144,15 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** text box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **API**, and then select Enter.
 
-1.  On the **Everything** search results blade, select the **API Management** result.
+1.  From the **Everything** search results blade, select the **API Management** result.
 
-1.  On the **API Management** blade, select **Create**.
+1.  From the **API Management** blade, select **Create**.
 
-1.  On the **API Management Service** blade, perform the following actions:
+1.  From the **API Management Service** blade, perform the following actions:
     
     1.  In the **Name** text box, enter **prodapi*yourname***.
     
@@ -176,11 +176,11 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  In the Azure portal's navigation pane, select **Resource groups**.
 
-1.  On the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
+1.  From the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
 
-1.  On the **ApiService** blade, select the **prodapi\*** API Management account that you created earlier in this lab.
+1.  From the **ApiService** blade, select the **prodapi\*** API Management account that you created earlier in this lab.
 
-1.  On the **API Management Service** blade, in the **API Management** section, select **APIs** .
+1.  From the **API Management Service** blade, in the **API Management** section, select **APIs** .
 
 1.  In the **Add a new API** section, select **Blank API**.
 
@@ -200,7 +200,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
     > **Note**: Wait for the new API to finish being created.
 
-1.  On the **Design** tab, select **Add operation**.
+1.  From the **Design** tab, select **Add operation**.
 
 1.  In the **Add operation** section, perform the following actions:
     
@@ -214,7 +214,7 @@ In this exercise, you created a new Azure web app by using a container image sou
     
     1.  Select **Save**.
 
-1.	Back on the **Design** tab, in the list of operations, select **All Operations**.
+1.	Back from the **Design** tab, in the list of operations, select **All Operations**.
 
 1.	In the **Design** section for **All Operations**, find the **Inbound processing** tile, and then select **Add policy**.
 
@@ -230,7 +230,7 @@ In this exercise, you created a new Azure web app by using a container image sou
     
     1. Select **Save**.
 
-1.	Back on the **Design** tab, in the list of operations, select **Echo Headers**.
+1.	Back from the **Design** tab, in the list of operations, select **Echo Headers**.
 
 1.	In the **Design** section for **Echo Headers**, find the **Backend** tile, and then select the pencil icon.
 
@@ -244,9 +244,9 @@ In this exercise, you created a new Azure web app by using a container image sou
 
     1.  Select **Save**.
 
-1.	Back on the **Design** tab, in the list of operations, select **Echo Headers**.
+1.	Back from the **Design** tab, in the list of operations, select **Echo Headers**.
 
-1.	On the **Test** tab, select the **Echo Headers** operation.
+1.	From the **Test** tab, select the **Echo Headers** operation.
 
 1.	In the **Echo Headers** section, select **Send**.
 
@@ -258,7 +258,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 #### Task 3: Manipulate an API response
 
-1.  On the **Design** tab, select **Add operation**.
+1.  From the **Design** tab, select **Add operation**.
 
 1.  In the **Add operation** section, perform the following actions:
     
@@ -272,9 +272,9 @@ In this exercise, you created a new Azure web app by using a container image sou
     
     1.  Select **Save**.
 
-1.  Back on the **Design** tab, in the list of operations, select **Get Legacy Data**.
+1.  Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
-1.	On the **Test** tab, select the **Get Legacy Data** operation.
+1.	From the **Test** tab, select the **Get Legacy Data** operation.
 
 1.	In the **Get Legacy Data** section, select **Send**.
 
@@ -282,7 +282,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
     > **Note**: At this point, the results should be in XML format.
 
-1.	Back on the **Design** tab, in the list of operations, select **Get Legacy Data**.
+1.	Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
 1.  In the **Design** section for the **Get Legacy Data** operation, find the **Outbound processing** tile, and then select **Add policy**.
 
@@ -307,9 +307,9 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  In the policy code editor, select **Save**.
 
-1.  Back on the **Design** tab, in the list of operations, select **Get Legacy Data**.
+1.  Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
-1.	On the **Test** tab, select the **Get Legacy Data** operation.
+1.	From the **Test** tab, select the **Get Legacy Data** operation.
 
 1.	In the **Get Legacy Data** section, select **Send**.
 
