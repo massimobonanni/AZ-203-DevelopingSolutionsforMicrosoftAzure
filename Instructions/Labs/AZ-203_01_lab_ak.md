@@ -44,7 +44,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
@@ -210,7 +210,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 6: Deploy an ASP.NET Core web application to Web Apps
 
-1.  From the taskbar, select the **Visual Studio Code** icon.
+1.  On the taskbar, select the **Visual Studio Code** icon.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -224,7 +224,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the **ImagesController** class on line 55, observe the **Post** method and the code used to persist an uploaded image to  Storage.
 
-1.  From the taskbar, select the **Windows Terminal** icon.
+1.  On the taskbar, select the **Windows Terminal** icon.
 
 1.  At the open command prompt, enter the following command, and then select Enter to sign in to the Azure Command-Line Interface (CLI):
 
@@ -370,7 +370,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 #### Task 3: Deploy an ASP.NET Core web application to Web Apps
 
-1.  From the taskbar, select the **Visual Studio Code** icon.
+1.  On the taskbar, select the **Visual Studio Code** icon.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -382,7 +382,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  In the **IndexModel** class on line 41, observe the **OnPostAsync** method and the code used to stream an uploaded image to the back-end API.
 
-1.  From the taskbar, select the **Windows Terminal** icon.
+1.  On the taskbar, select the **Windows Terminal** icon.
 
 1.  At the open command prompt, enter the following command, and then select Enter to sign in to the Azure CLI:
 

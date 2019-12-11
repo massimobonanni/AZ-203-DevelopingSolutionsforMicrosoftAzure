@@ -44,7 +44,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
@@ -204,7 +204,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 #### Task 1: Build a .NET Core Web API project
 
-1.  From the taskbar, select the **Visual Studio Code** icon.
+1.  On the taskbar, select the **Visual Studio Code** icon.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -265,7 +265,7 @@ In this exercise, you created the resources that you'll use for the remainder of
     services.AddApplicationInsightsTelemetry(INSTRUMENTATION_KEY);
     ```
 
-1.  Your **ConfigureServices** method should now include:
+1.  Observe the **ConfigureServices** method, which should now include:
 
     ```
     public void ConfigureServices(IServiceCollection services)
@@ -291,7 +291,7 @@ In this exercise, you created the resources that you'll use for the remainder of
     dotnet run
     ```
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the **/weatherforecast** relative path of your test application that's hosted at **localhost** on port **5000**.
     
@@ -323,7 +323,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 #### Task 1: Deploy an application to the web app
 
-1.  From the taskbar, select the **Visual Studio Code** icon.
+1.  On the taskbar, select the **Visual Studio Code** icon.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -469,7 +469,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
 1.  From the **Application Insights** blade, select **Live Metrics Stream** in the **Investigate** section.
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the new browser window, go to the URL that you recorded earlier in this lab.
 

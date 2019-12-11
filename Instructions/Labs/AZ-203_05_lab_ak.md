@@ -30,7 +30,7 @@ Sign in to your Windows 10 virtual machine (VM) by using the following credentia
 
 #### Review the installed applications
 
-Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for the applications you'll use in this lab:
+Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for the applications that you'll use in this lab:
     
 -   Microsoft Edge
 
@@ -40,7 +40,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 

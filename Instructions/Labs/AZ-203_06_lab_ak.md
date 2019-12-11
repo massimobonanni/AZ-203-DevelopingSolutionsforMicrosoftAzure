@@ -30,7 +30,7 @@ Sign in to your Windows 10 virtual machine by using the following credentials:
 
 #### Review the installed applications
 
-Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for the applications you'll use in this lab:
+Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for the applications that you'll use in this lab:
     
 -   Microsoft Edge
 
@@ -40,7 +40,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, go to the **Azure portal** (<https://portal.azure.com>).
 
@@ -405,7 +405,7 @@ In this exercise, you created a server-assigned managed service identity for you
 
 1.  Delete the existing code within the **Run** method of the script.
 
-1.  The **Run** method should now include:
+1.  Observe the **Run** method, which should now include:
 
     ```
     using System.Net;
@@ -429,7 +429,7 @@ In this exercise, you created a server-assigned managed service identity for you
     return new OkObjectResult(connectionString);
     ```
     
-1.  The **Run** method should now include:
+1.  Observe the **Run** method, which should now include:
 
     ```
     using System.Net;
@@ -488,7 +488,7 @@ In this exercise, you used a service identity to read the value of a secret stor
 
 1.  From the **Blob** blade, find the blob metadata, and then copy the URL for the blob.
 
-1.  From the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
+1.  On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
 1.  In the new browser window, go to the URL that you copied for the blob.
 
@@ -504,7 +504,7 @@ In this exercise, you used a service identity to read the value of a secret stor
     
     1.  Select **OK**.
 
-1.  From the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
+1.  On the taskbar, right-click the **Microsoft Edge** icon or activate the shortcut menu, and then select **New window**.
 
 1.  In the new browser window, go to the URL that you copied for the blob.
 
@@ -573,7 +573,7 @@ In this exercise, you used a service identity to read the value of a secret stor
     using Azure.Storage.Blobs.Models;
     ```
 
-1.  The **Run** method should now include:
+1.  Observe the **Run** method, which should now include:
 
     ```
     using System.Net;
@@ -614,7 +614,7 @@ In this exercise, you used a service identity to read the value of a secret stor
     BlobClient blobClient = containerClient.GetBlobClient("records.json");
     ```
     
-1.  The **Run** method should now include:
+1.  Observe the **Run** method, which should now include:
 
     ```
     using System.Net;
@@ -646,7 +646,7 @@ In this exercise, you used a service identity to read the value of a secret stor
     return new FileStreamResult(response?.Value?.Content, response?.Value?.ContentType);
     ```
 
-1.  The **Run** method should now include:
+1.  Observe the **Run** method, which should now include:
 
     ```
     using System.Net;
@@ -694,7 +694,7 @@ In this exercise, you used C\# code to access a storage account, and then downlo
     az group list
     ```
 
-1.  At the prompt, enter the following command, and then select Enter to find a list of possible commands to delete a resource group:
+1.  At the command prompt, enter the following command, and then select Enter to find a list of possible commands to delete a resource group:
 
     ```
     az group delete --help
@@ -702,7 +702,7 @@ In this exercise, you used C\# code to access a storage account, and then downlo
 
 #### Task 2: Delete a resource group
 
-1.  At the prompt, enter the following command, and then select Enter to delete the **SecureFunction** resource group:
+1.  At the command prompt, enter the following command, and then select Enter to delete the **SecureFunction** resource group:
 
     ```
     az group delete --name SecureFunction --no-wait --yes

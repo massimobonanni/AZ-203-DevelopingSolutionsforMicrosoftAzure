@@ -42,7 +42,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 1: Open the Azure portal
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the Azure portal ([portal.azure.com](https://portal.azure.com)).
 
@@ -390,7 +390,7 @@ In this exercise, you imported all the resources that you'll use with your web a
 
 1.  Observe the results of the build printed in the terminal. The build should complete successfully with no errors or warning messages.
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 2: Update the SQL connection string
 
@@ -446,7 +446,7 @@ In this exercise, you imported all the resources that you'll use with your web a
 
     > **Note**: The **dotnet run** command will automatically build any changes to the project and then start the web application without a debugger attached. The command will output the URL of the running application and any assigned ports.
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
@@ -460,7 +460,7 @@ In this exercise, you imported all the resources that you'll use with your web a
 
 1.  Close the browser window displaying your web application.
 
-1.  Return to the **Visual Studio Code** window, and then select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Return to the **Visual Studio Code** window, and then select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Review
 
@@ -524,7 +524,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 2: Create a .NET class 
 
@@ -618,7 +618,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 4: Get SQL database records by using Entity Framework
 
@@ -660,7 +660,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\04\\Solution\\AdventureWorks\\AdventureWorks.Migrate** folder.
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 5: Insert items into Azure Cosmos DB
 
@@ -747,7 +747,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 1.  Observe the various data that prints to the screen, including initial SQL record count, individual upsert activity identifiers, and final Azure Cosmos DB document count.
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 7: Validate the migration
 
@@ -815,7 +815,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 2: Write .NET Core code to connect to Azure Cosmos DB
 
@@ -989,7 +989,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
     > **Note**: If there are any build errors, review the **AdventureWorksCosmosContext.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\04\\Solution\\AdventureWorks\\AdventureWorks.Context** folder.
 
-1.  Select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Task 3: Update the Azure Cosmos DB connection string
 
@@ -1070,7 +1070,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
     > **Note**: The **dotnet run** command will automatically build any changes to the project and then start the web application without a debugger attached. The command will output the URL of the running application and any assigned ports.
 
-1.  From the taskbar, select the **Microsoft Edge** icon.
+1.  On the taskbar, select the **Microsoft Edge** icon.
 
 1.  In the open browser window, browse to the currently running web application (<http://localhost:5000>).
 
@@ -1088,7 +1088,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
 1.  Close the browser window displaying your web application.
 
-1.  Return to the **Visual Studio Code** window, and then select **Kill Terminal** (or the **Trash Can** icon) to close the currently open terminal and any associated processes.
+1.  Return to the **Visual Studio Code** window, and then select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
 
 #### Review
 
