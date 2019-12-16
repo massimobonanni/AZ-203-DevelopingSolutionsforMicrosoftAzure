@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab: Authenticating to and querying the Microsoft Graph using MSAL and .NET SDKs'
+    title: 'Lab: Authenticating to and querying Microsoft Graph by using MSAL and .NET SDKs'
     module: 'Module 07: '
-    type: 'Answer key'
+    type: 'Answer Key'
 ---
 
-# Lab: Authenticating to and querying the Microsoft Graph using MSAL and .NET SDKs
+# Lab: Authenticating to and querying Microsoft Graph by using MSAL and .NET SDKs
 # Student lab answer key
 
 ## Microsoft Azure user interface
@@ -20,13 +20,13 @@ Microsoft updates this training course when the community brings needed changes 
 
 #### Sign in to the lab virtual machine
 
-Sign in to your Windows 10 virtual machine by using the following credentials:
+Sign in to your Windows 10 virtual machine (VM) by using the following credentials:
     
 -   Username: **Admin**
 
 -   Password: **Pa55w.rd**
 
-> **Note**: Your instructor will provide lab virtual machine sign-in instructions.
+> **Note**: Your instructor will provide lab VM sign-in instructions.
 
 #### Review the installed applications
 
@@ -36,21 +36,21 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 -   Visual Studio Code
 
-### Exercise 1: Create an Azure Active Directory application registration
+### Exercise 1: Create an Azure Active Directory (Azure AD) application registration
 
-#### Task 1: Open the Azure Portal
+#### Task 1: Open the Azure portal
 
 1.  On the taskbar, select the **Microsoft Edge** icon.
 
-1.  In the open browser window, navigate to the **Azure portal** (<https://portal.azure.com>).
+1.  In the open browser window, go to the Azure portal (<https://portal.azure.com>).
 
-1.  Enter the **email address** for your Microsoft account, and then select **Next**.
+1.  Enter the email address for your Microsoft account, and then select **Next**.
 
-1.  Enter the **password** for your Microsoft account, and then select **Sign in**.
+1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: If this is your first time signing in to the Azure portal, you will be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
+    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
-#### Task 2: Create application registration
+#### Task 2: Create an application registration
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
@@ -58,13 +58,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Azure Active Directory** blade, select **App registrations** in the **Manage** section.
 
-1.  In the **App registrations** section, select **+ New registration**.
+1.  In the **App registrations** section, select **New registration**.
 
 1.  In the **Register an application** section, perform the following actions:
 
     1.  In the **Name** text box, enter **graphapp*yourname***.
 
-    1.  In the **Supported account types** checkbox list, select the **Acounts in this organizational directory only (Single tenant)**.
+    1.  In the **Supported account types** list, select the **Accounts in this organizational directory only (Single tenant)** check box.
 
     1.  In the **Redirect URI** drop-down list, select **Public client/native (mobile & desktop)**.
 
@@ -72,7 +72,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Register**.
 
-#### Task 3: Enable default client type
+#### Task 3: Enable the default client type
 
 1.  In the **graphapp*yourname*** application registration blade, select **Authentication** in the **Manage** section.
 
@@ -84,25 +84,25 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Task 4: Record unique identifiers
 
-1.  In the **graphapp*yourname*** application registration blade, select **Overview**.
+1.  On the **graphapp*yourname*** application registration blade, select **Overview**.
 
-1.  In the **Overview** section, locate and record the value of the **Application (client) ID** field. You will use this value later in the lab.
+1.  In the **Overview** section, find and record the value of the **Application (client) ID** box. You'll use this value later in the lab.
 
-1.  In the **Overview** section, locate and record the value of the **Directory (tenant) ID** field. You will use this value later in the lab.
+1.  In the **Overview** section, find and record the value of the **Directory (tenant) ID** box. You'll use this value later in the lab.
 
 1.  Close the currently open browser window.
 
 #### Review
 
-In this exercise, you created a new application registration and recorded important values you will need later in the lab.
+In this exercise, you created a new application registration and recorded important values that you'll need later in the lab.
 
-### Exercise 2: Obtain a token using the MSAL.NET library
+### Exercise 2: Obtain a token by using the MSAL.NET library
 
-#### Task 1: Create .NET Core project
+#### Task 1: Create a .NET Core project
 
 1.  From the **Start** screen, select the **Visual Studio Code** tile.
 
-1.  From the **File** menu, select **Open Folder**.
+1.  On the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\07\\Starter\\GraphClient**, and then select **Select Folder**.
 
@@ -130,7 +130,7 @@ In this exercise, you created a new application registration and recorded import
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
 #### Task 2: Modify the Program class
 
@@ -174,7 +174,7 @@ In this exercise, you created a new application registration and recorded import
     private const string _clientId = "";
     ```
 
-1.  Update the **_clientId** string constant by by setting its value to the **Application (client) ID** that you recorded earlier in this lab.
+1.  Update the **_clientId** string constant by setting its value to the **Application (client) ID** that you recorded earlier in this lab.
 
 1.  In the **Program** class, enter the following line of code to create a new string constant named **_tenantId**:
 
@@ -182,7 +182,7 @@ In this exercise, you created a new application registration and recorded import
     private const string _tenantId = "";
     ```
 
-1.  Update the **_tenantId** string constant by by setting its value to the **Directory (tenant) ID** that you recorded earlier in this lab.
+1.  Update the **_tenantId** string constant by setting its value to the **Directory (tenant) ID** that you recorded earlier in this lab.
 
 1.  Observe the **Program.cs** file, which should now include:
 
@@ -203,15 +203,15 @@ In this exercise, you created a new application registration and recorded import
     }
     ```
 
-#### Task 3: Obtain a MSAL token
+#### Task 3: Obtain a Microsoft Authentication Library (MSAL) token
 
-1.  In the **Main** method, add the following line of code to create a new variable named **app** of type **[IPublicClientApplication](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.ipublicclientapplication)**:
+1.  In the **Main** method, add the following line of code to create a new variable named *app* of type **[IPublicClientApplication](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.ipublicclientapplication)**:
 
     ```
     IPublicClientApplication app;
     ```
 
-1.  In the **Main** method, perform the following actions to build a public client application instance using the static **[PublicClientApplicationBuilder](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder)** class and store it in the **app** variable:
+1.  In the **Main** method, perform the following actions to build a public client application instance by using the static **[PublicClientApplicationBuilder](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder)** class, and then store it in the *app* variable:
 
     1.  Add the following line of code to access the static **[PublicClientApplicationBuilder](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder)** class:
 
@@ -219,14 +219,14 @@ In this exercise, you created a new application registration and recorded import
         PublicClientApplicationBuilder
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[Create()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder.create)** method of the **PublicClientApplicationBuilder** class passing in the **_clientId** variable as a parameter:
+    1.  Update the previous line of code by adding another line of code to use the **[Create()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder.create)** method of the **PublicClientApplicationBuilder** class, passing in the *_clientId* variable as a parameter:
 
         ```
         PublicClientApplicationBuilder
             .Create(_clientId)
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[WithAuthority()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withauthority)** method of the base **[AbstractApplicationBuilder<>](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1)** class passing in the enumeration value **[AzureCloudInstance.AzurePublic](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.azurecloudinstance)** and the **_tenantId** variable as parameters:
+    1.  Update the previous line of code by adding another line of code to use the **[WithAuthority()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withauthority)** method of the base **[AbstractApplicationBuilder<>](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1)** class, passing in the enumeration value **[AzureCloudInstance.AzurePublic](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.azurecloudinstance)** and the *_tenantId* variable as parameters:
 
         ```
         PublicClientApplicationBuilder
@@ -234,7 +234,7 @@ In this exercise, you created a new application registration and recorded import
             .WithAuthority(AzureCloudInstance.AzurePublic, _tenantId)
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[WithRedirectUri()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withredirecturi)** method of the base **AbstractApplicationBuilder<>** class passing in a string value of **http://localhost**:
+    1.  Update the previous line of code by adding another line of code to use the **[WithRedirectUri()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractapplicationbuilder-1.withredirecturi)** method of the base **AbstractApplicationBuilder<>** class, passing in a string value of **http://localhost**:
 
         ```
         PublicClientApplicationBuilder
@@ -243,7 +243,7 @@ In this exercise, you created a new application registration and recorded import
             .WithRedirectUri("http://localhost")
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[Build()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder.build)** method of the **PublicClientApplication** class:
+    1.  Update the previous line of code by adding another line of code to use the **[Build()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.publicclientapplicationbuilder.build)** method of the **PublicClientApplication** class:
 
         ```
         PublicClientApplicationBuilder
@@ -253,7 +253,7 @@ In this exercise, you created a new application registration and recorded import
             .Build();
         ```
 
-    1.  Update the previous line of code by adding additional code to store the result of the expression in the **app** variable:
+    1.  Update the previous line of code by adding more code to store the result of the expression in the *app* variable:
 
         ```
         app = PublicClientApplicationBuilder
@@ -272,28 +272,28 @@ In this exercise, you created a new application registration and recorded import
     };
     ```
 
-1.  In the **Main** method, add the following line of code to create a new variable named **result** of type **[AuthenticationResult](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult)**:
+1.  In the **Main** method, add the following line of code to create a new variable named *result* of type **[AuthenticationResult](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult)**:
 
     ```
     AuthenticationResult result;
     ```
 
-1.  In the **Main** method, perform the following actions to acquire a token interactively and store the output in the **result** variable:
+1.  In the **Main** method, perform the following actions to acquire a token interactively and store the output in the *result* variable:
 
-    1.  Add the following line of code to access **app** variable:
+    1.  Add the following line of code to access the *app* variable:
 
         ```
         app
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[AcquireTokenInteractive()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.ipublicclientapplication.acquiretokeninteractive)** method of the **IPublicClientApplicationBuilder** interface passing in the **scopes** variable as a parameter:
+    1.  Update the previous line of code by adding another line of code to use the **[AcquireTokenInteractive()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.ipublicclientapplication.acquiretokeninteractive)** method of the **IPublicClientApplicationBuilder** interface, passing in the *scopes* variable as a parameter:
 
         ```
         app
             .AcquireTokenInteractive(scopes)
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to use the **[ExecuteAsync()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractacquiretokenparameterbuilder-1.executeasync)** method of the **[AbstractAcquireTokenParameterBuilder](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractacquiretokenparameterbuilder-1)** class:
+    1.  Update the previous line of code by adding another line of code to use the **[ExecuteAsync()](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractacquiretokenparameterbuilder-1.executeasync)** method of the **[AbstractAcquireTokenParameterBuilder](https://docs.microsoft.com/dotnet/api/microsoft.identity.client.abstractacquiretokenparameterbuilder-1)** class:
 
         ```
         app
@@ -301,7 +301,7 @@ In this exercise, you created a new application registration and recorded import
             .ExecuteAsync();
         ```
 
-    1.  Update the previous line of code by adding additional code to process the expression asynchronously using the **await** keyword:
+    1.  Update the previous line of code by adding more code to process the expression asynchronously by using the **await** keyword:
     
         ```
         await app
@@ -309,7 +309,7 @@ In this exercise, you created a new application registration and recorded import
             .ExecuteAsync();
         ```
 
-    1.  Update the previous line of code by adding additional code to store the result of the expression in the **result** variable:
+    1.  Update the previous line of code by adding more code to store the result of the expression in the *result* variable:
     
         ```
         result = await app
@@ -369,13 +369,13 @@ In this exercise, you created a new application registration and recorded import
 
 1.  In the open browser window, perform the following actions:
 
-    1.  Enter the **email address** for your Microsoft account, and then select **Next**.
+    1.  Enter the email address for your Microsoft account, and then select **Next**.
 
-    1.  Enter the **password** for your Microsoft account, and then select **Sign in**.
+    1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: You may have the option to select an existing Microsoft account as opposed to signing in again.
+    > **Note**: You might have the option to select an existing Microsoft account as opposed to signing in again.
 
-1.  The browser window will automatically navigate to the **Permissions requested** web page. In this web page, perform the following actions:
+1.  The browser window will automatically open the **Permissions requested** webpage. On this webpage, perform the following actions:
 
     1.  Review the requested permissions.
 
@@ -383,17 +383,17 @@ In this exercise, you created a new application registration and recorded import
 
 1.  Close the currently open browser window.
 
-1.  Return to the currently running **Visual Studio Code** application.
+1.  Return to the currently running Visual Studio Code application.
 
-1.  Observe the token rendered the output from the currently running console application.
+1.  Observe the token rendered in the output from the currently running console application.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
 #### Review
 
-In this exercise, you acquired a token from the Microsoft Identity Platform using the MSAL.NET library.
+In this exercise, you acquired a token from the Microsoft identity platform by using the MSAL.NET library.
 
-### Exercise 3: Query the Microsoft Graph using the .NET SDK
+### Exercise 3: Query Microsoft Graph by using the .NET SDK
 
 #### Task 1: Import the Microsoft Graph SDK from NuGet
 
@@ -421,7 +421,7 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
 #### Task 2: Modify the Program class
 
@@ -439,7 +439,7 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
     using Microsoft.Graph.Auth;
     ```
 
-1.  Observe the **Program.cs** file, which should now include the following using directives:
+1.  Observe the **Program.cs** file, which should now include the following **using** directives:
 
     ```
     using Microsoft.Graph;    
@@ -501,13 +501,13 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
     }
     ```
 
-1.  In the **Main** method, add the following line of code to create a new variable named **provider** of type **DeviceCodeProvider** that passes in the variables **app**, and **scopes** as constructor parameters:
+1.  In the **Main** method, add the following line of code to create a new variable named *provider* of type **DeviceCodeProvider** that passes in the variables *app* and *scopes* as constructor parameters:
 
     ```
     DeviceCodeProvider provider = new DeviceCodeProvider(app, scopes);
     ```
 
-1.  In the **Main** method, add the following line of code to create a new varilable named **client** of type **GraphServiceClient** that passes in the variable **provider** as a constructor parameter:
+1.  In the **Main** method, add the following line of code to create a new variable named *client* of type **GraphServiceClient** that passes in the variable *provider* as a constructor parameter:
 
     ```
     GraphServiceClient client = new GraphServiceClient(provider);
@@ -515,20 +515,20 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
 
 1.  In the **Main** method, perform the following actions to use the **GraphServiceClient** instance to asynchronously get the response of issuing an HTTP request to the relative **/Me** directory of the REST API:
 
-    1.  Add the following line of code to get the **Me** property of the **client** variable:
+    1.  Add the following line of code to get the **Me** property of the *client* variable:
 
         ```
         client.Me
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to get an object representing the HTTP request using the **Request()** method:
+    1.  Update the previous line of code by adding another line of code to get an object representing the HTTP request by using the **Request()** method:
 
         ```
         client.Me
             .Request()
         ```
 
-    1.  Update the previous line of code by adding an additional line of code to issue the request asynchronously using the **GetAsync()** method:
+    1.  Update the previous line of code by adding another line of code to issue the request asynchronously by using the **GetAsync()** method:
 
         ```
         client.Me
@@ -536,7 +536,7 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
             .GetAsync()
         ```
 
-    1.  Update the previous line of code by adding additional code to process the expression asynchronously using the **await** keyword:
+    1.  Update the previous line of code by adding more code to process the expression asynchronously by using the **await** keyword:
 
         ```
         await client.Me
@@ -544,7 +544,7 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
             .GetAsync()
         ```
 
-    1.  Update the previous line of code by adding additional code to store the result of the expression in a new variable named **myProfile** of type **User**:
+    1.  Update the previous line of code by adding more code to store the result of the expression in a new variable named *myProfile* of type **User**:
 
         ```
         User myProfile = await client.Me
@@ -608,37 +608,37 @@ In this exercise, you acquired a token from the Microsoft Identity Platform usin
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\07\\Solution\\GraphClient** folder.
 
-1.  Observe the message rendered in the output from the currently running console application. Record the value of the **code** rendered in the message. You will use this value later in the lab.
+1.  Observe the message in the output from the currently running console application. Record the value of the code in the message. You'll use this value later in the lab.
 
 1.  On the taskbar, select the **Microsoft Edge** icon.
 
-1.  In the open browser window, navigate to the following url: <https://microsoft.com/devicelogin>.
+1.  In the open browser window, go to <https://microsoft.com/devicelogin>.
 
-1.  On the **Enter code** web page, perform the following actions:
+1.  On the **Enter code** webpage, perform the following actions:
 
-    1.  In the **Code** text box, enter the value of the **code** you copied earlier in the lab.
+    1.  In the **Code** text box, enter the value of the code that you copied earlier in the lab.
 
     1.  Select **Next**.  
 
-1.  On the login web page, perfom the following actions:
+1.  On the login webpage, perform the following actions:
 
-    1.  Enter the **email address** for your Microsoft account, and then select **Next**.
+    1.  Enter the email address for your Microsoft account, and then select **Next**.
 
-    1.  Enter the **password** for your Microsoft account, and then select **Sign in**.
+    1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: You may have the option to select an existing Microsoft account as opposed to signing in again.
+    > **Note**: You might have the option to select an existing Microsoft account as opposed to signing in again.
 
 1.  Close the currently open browser window.
 
-1.  Return to the currently running **Visual Studio Code** application.
+1.  Return to the currently running Visual Studio Code application.
 
-1.  Observe the rendered output from the Microsoft Graph request in the currently running console application.
+1.  Observe the output from the Microsoft Graph request in the currently running console application.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
 #### Review
 
-In this exercise, you queried the Microsoft Graph using the SDK and MSAL-based authentication.
+In this exercise, you queried Microsoft Graph by using the SDK and MSAL-based authentication.
 
 ### Exercise 4: Clean up your subscription 
 
@@ -658,7 +658,7 @@ In this exercise, you queried the Microsoft Graph using the SDK and MSAL-based a
 
     1.  Select **Delete**.
 
-    1.  In the confirmation popup dialog, select **Yes**.
+    1.  In the confirmation pop-up dialog box, select **Yes**.
 
 #### Task 2: Close the active applications
 

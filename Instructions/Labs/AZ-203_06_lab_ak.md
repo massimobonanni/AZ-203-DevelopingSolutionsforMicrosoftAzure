@@ -2,7 +2,7 @@
 lab:
     title: 'Lab: Access resource secrets more securely across services'
     module: 'Module 06: '
-    type: 'Answer key'
+    type: 'Answer Key'
 ---
 
 # Lab: Access resource secrets more securely across services

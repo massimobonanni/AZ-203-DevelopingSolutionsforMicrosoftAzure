@@ -2,7 +2,7 @@
 lab:
     title: 'Lab: Retrieving Azure Storage resources and metadata by using the Azure Storage SDK for .NET'
     module: 'Module 03: '
-    type: 'Answer key'
+    type: 'Answer Key'
 ---
 
 # Lab: Retrieving Azure Storage resources and metadata by using the .NET Core SDK
@@ -208,7 +208,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
     dotnet build
     ```
 
-1.  Select **Kill Terminal** (or the **Recycle Bin** icon) to close the currently open terminal and any associated processes.
+1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
 #### Task 2: Modify the Program class to access Storage
 
