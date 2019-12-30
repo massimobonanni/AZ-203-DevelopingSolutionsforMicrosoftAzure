@@ -154,7 +154,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  On the **Resource groups** blade, find and then select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
-1.  On the **AutomatedWorkflow** blade, select the **prodstor\*** storage account that you created earlier in this lab.
+1.  On the **AutomatedWorkflow** blade, select the **prodstor*yourname*** storage account that you created earlier in this lab.
 
 1.  On the **Storage account** blade, in the **File service** section, select the **File shares** link.
 
@@ -204,7 +204,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  On the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
-1.  On the **AutomatedWorkflow** blade, select the **prodflow\*** logic app that you created earlier in this lab.
+1.  On the **AutomatedWorkflow** blade, select the **prodflow*yourname*** logic app that you created earlier in this lab.
 
 1.  On the **Logic Apps Designer** blade, select the **Blank Logic App** template.
 
@@ -292,7 +292,7 @@ In this exercise, you built a basic workflow that starts when it's triggered by 
 
 1.  On the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
-1.  On the **AutomatedWorkflow** blade, select the **prodapim\*** API Management resource that you created earlier in this lab.
+1.  On the **AutomatedWorkflow** blade, select the **prodapim*yourname*** API Management resource that you created earlier in this lab.
 
 1.  From the **API Management Service** blade, in the **API Management** section, select **Products**.
 

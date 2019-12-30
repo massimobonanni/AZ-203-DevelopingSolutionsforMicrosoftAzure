@@ -124,7 +124,7 @@ In this exercise, you created a new Storage account to use throughout the remain
 
 1.  On the **Resource groups** blade, find and then select the **StorageMedia** resource group that you created earlier in this lab.
 
-1.  On the **StorageMedia** blade, select the **mediastor\*** storage account that you created earlier in this lab.
+1.  On the **StorageMedia** blade, select the **mediastor*yourname*** storage account that you created earlier in this lab.
 
 1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section.
 
@@ -152,7 +152,7 @@ In this exercise, you created a new Storage account to use throughout the remain
 
 1.  On the **Resource groups** blade, find and then select the **StorageMedia** resource group that you created earlier in this lab.
 
-1.  On the **StorageMedia** blade, select the **mediastor\*** storage account that you created earlier in this lab.
+1.  On the **StorageMedia** blade, select the **mediastor*yourname*** storage account that you created earlier in this lab.
 
 1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section.
 
@@ -639,7 +639,7 @@ In this exercise, you accessed existing containers by using the Azure Storage SD
 
 1.  On the **Resource groups** blade, find and then select the **StorageMedia** resource group that you created earlier in this lab.
 
-1.  On the **StorageMedia** blade, select the **mediastor\*** storage account that you created earlier in this lab.
+1.  On the **StorageMedia** blade, select the **mediastor*yourname*** storage account that you created earlier in this lab.
 
 1.  On the **Storage account** blade, select the **Containers** link in the **Blob service** section.
 

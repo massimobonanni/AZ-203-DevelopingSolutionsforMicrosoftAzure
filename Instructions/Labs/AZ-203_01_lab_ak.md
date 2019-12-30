@@ -108,7 +108,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  From the **ManagedPlatform** blade, select the **imgstor\*** storage account that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgstor*yourname*** storage account that you created earlier in this lab.
 
 1.  From the **Storage Account** blade, in the **Blob service** section, select the **Containers** link.
 
@@ -186,7 +186,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  From the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgapi*yourname*** web app that you created earlier in this lab.
 
 1.  From the **Web App** blade, in the **Settings** section, select the **Configuration** link.
 
@@ -278,7 +278,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.	From the **Resource groups** blade, find and select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.	From the **ManagedPlatform** blade, select the **imgapi\*** web app that you created earlier in this lab.
+1.	From the **ManagedPlatform** blade, select the **imgapi*yourname*** web app that you created earlier in this lab.
 
 1.	From the **Web App** blade, select **Browse**.
 
@@ -346,7 +346,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.  From the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **imgweb*yourname*** web app that you created earlier in this lab.
 
 1.  From the **Web App** blade, in the **Settings** section, select the **Configuration** link.
 
@@ -436,7 +436,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.	From the **Resource groups** blade, select the **ManagedPlatform** resource group that you created earlier in this lab.
 
-1.	From the **ManagedPlatform** blade, select the **imgweb\*** web app that you created earlier in this lab.
+1.	From the **ManagedPlatform** blade, select the **imgweb*yourname*** web app that you created earlier in this lab.
 
 1.	From the **Web App** blade, select **Browse**.
 

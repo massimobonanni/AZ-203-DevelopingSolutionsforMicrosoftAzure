@@ -140,7 +140,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Resource groups** blade, find and then select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polycosmos*yourname*** Azure Cosmos DB account that you created earlier in this lab.
 
 1.  From the **Azure Cosmos DB account** blade, find the **Settings** section from the blade, and then select the **Keys** link.
 
@@ -198,7 +198,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polystor*yourname*** storage account that you created earlier in this lab.
 
 1.  From the **Storage account** blade, select the **Containers** link in the **Blob service** section from the blade.
 
@@ -238,7 +238,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polystor\*** storage account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polystor*yourname*** storage account that you created earlier in this lab.
 
 1.  From the **Storage account** blade, select the **Containers** link in the **Blob service** section from the blade.
 
@@ -272,7 +272,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polysqlsrvr*yourname*** SQL server that you created earlier in this lab.
 
 1.  From the **SQL server** blade, select **Import database**.
 
@@ -282,7 +282,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
     1.  Select the **Storage** option.
 
-    1.  From the **Storage accounts** blade, select the **polystor\*** storage account that you created earlier in this lab. 
+    1.  From the **Storage accounts** blade, select the **polystor*yourname*** storage account that you created earlier in this lab. 
 
     1.  From the **Containers** blade, select the **databases** container that you created earlier in this lab. 
 
@@ -308,7 +308,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polysqlsrvr\*** SQL server that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polysqlsrvr*yourname*** SQL server that you created earlier in this lab.
 
 1.  From the **SQL server** blade, find the **Security** section from the blade, and then select the **Firewalls and virtual networks** link.
 
@@ -757,7 +757,7 @@ In this exercise, you configured your ASP.NET web application to connect to your
 
 1.  From the **Resource groups** blade, find and select the **PolyglotData** resource group that you created earlier in this lab.
 
-1.  From the **PolyglotData** blade, select the **polycosmos\*** Azure Cosmos DB account that you created earlier in this lab.
+1.  From the **PolyglotData** blade, select the **polycosmos*yourname*** Azure Cosmos DB account that you created earlier in this lab.
 
 1.  From the **Azure Cosmos DB account** blade, find and select the **Data Explorer** link from the blade.
 

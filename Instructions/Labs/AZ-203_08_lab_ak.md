@@ -108,7 +108,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
 
-1.  From the **ManagedPlatform** blade, select the **httpapi\*** web app that you created earlier in this lab.
+1.  From the **ManagedPlatform** blade, select the **httpapi*yourname*** web app that you created earlier in this lab.
 
 1.	From the **Web App** blade, select **Browse**.
 
@@ -128,7 +128,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Close the browser window for the web application.
 
-1.  Find the **Web App** blade for the **httpapi\*** web app back in the Azure portal.
+1.  Find the **Web App** blade for the **httpapi*yourname*** web app back in the Azure portal.
 
 1.  From the **Web App** blade, in the **Settings** section, select the **Properties** link.
 
@@ -178,7 +178,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  From the **Resource groups** blade, select the **ApiService** resource group that you created earlier in this lab.
 
-1.  From the **ApiService** blade, select the **prodapi\*** API Management account that you created earlier in this lab.
+1.  From the **ApiService** blade, select the **prodapi*yourname*** API Management account that you created earlier in this lab.
 
 1.  From the **API Management Service** blade, in the **API Management** section, select **APIs** .
 
