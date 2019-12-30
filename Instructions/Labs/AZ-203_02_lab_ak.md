@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab: Implement task processing logic using Azure Functions'
+    title: 'Lab: Implement task processing logic by using Azure Functions'
     module: 'Module 02: '
     type: 'Answer Key'
 ---
 
-# Lab: Implement task processing logic using Azure Functions
+# Lab: Implement task processing logic by using Azure Functions
 # Student lab answer key
 
 ## Microsoft Azure user interface
@@ -52,7 +52,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
-#### Task 2: Create a Storage account
+#### Task 2: Create an Azure Storage account
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
@@ -96,19 +96,19 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select the **Create a resource** link.
 
-1.  From the **New** blade, find the **Search the Marketplace** text box above the list of featured services.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Function**, and then select Enter.
 
-1.  From the **Everything** search results blade, select the **Function App** result.
+1.  On the **Everything** search results blade, select the **Function App** result.
 
-1.  From the **Function App** blade, select **Create**.
+1.  On the **Function App** blade, select **Create**.
 
-1.  Find the tabs from the **Function App** blade, such as **Basics**.
+1.  Find the tabs on the **Function App** blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new function app. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  From the **Basics** tab, perform the following actions:
+1.  On the **Basics** tab, perform the following actions:
     
     1.  Leave the **Subscription** text box set to its default value.
     
@@ -124,7 +124,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Next: Hosting**.
 
-1.  From the **Hosting** tab, perform the following actions:
+1.  On the **Hosting** tab, perform the following actions:
 
     1.  In the **Storage account** drop-down list, select the **funcstor\*** storage account that you created earlier in this lab.
 
@@ -134,13 +134,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  Select **Next: Monitoring**.
 
-1.  From the **Monitoring** tab, perform the following actions:
+1.  On the **Monitoring** tab, perform the following actions:
 
     1.  In the **Enable Application Insights** section, select **No**.
 
     1.  Select **Review + Create**.
 
-1.  From the **Review + Create** tab, review the options that you selected during the previous steps.
+1.  On the **Review + Create** tab, review the options that you selected during the previous steps.
 
 1.  Select **Create** to create the function app by using your specified configuration. 
 
@@ -150,17 +150,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 In this exercise, you created all the resources that you'll use for this lab.
 
-### Exercise 2: Create a function that is triggered by a HTTP request
+### Exercise 2: Create a function that's triggered by an HTTP request
 
-#### Task 1: Create http-triggered function
+#### Task 1: Create an HTTP-triggered function
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  From the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
 
-1.  From the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
+1.  On the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
 
-1.  From the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
+1.  On the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
 
 1.  In the **New Azure Function** quickstart, perform the following actions:
     
@@ -178,7 +178,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 #### Task 2: Write function code
 
-1.  In the function editor, find the example function **run.csx** script:
+1.  In the function editor, find the example **run.csx** function script:
 
     ```
     #r "Newtonsoft.Json"
@@ -204,7 +204,7 @@ In this exercise, you created all the resources that you'll use for this lab.
     }
     ```
 
-1.  **Delete** all the example code.
+1.  Delete all the example code.
 
 1.  Add the following line of code to import the **Microsoft.AspNetCore.Mvc** namespace:
 
@@ -218,7 +218,7 @@ In this exercise, you created all the resources that you'll use for this lab.
     using System.Net;
     ```
 
-1.  Add the following code block to create a new **public static** method named **Run** that returns a variable of type **IActionResult** and then that takes in variables of type **HttpRequest** and **ILogger** as parameters named **req** and **log**.
+1.  Add the following code block to create a new **public static** method named **Run** that returns a variable of type **IActionResult** and that also takes in variables of type **HttpRequest** and **ILogger** as parameters named *req* and *log*:
 
     ```
     public static IActionResult Run(HttpRequest req, ILogger log)
@@ -238,7 +238,7 @@ In this exercise, you created all the resources that you'll use for this lab.
     return new OkObjectResult(req.Body);
     ```
 
-1.  Observe the **run.csx** file editor, which should now include:
+1.  Observe the **run.csx** file, which should now include:
 
     ```
     using System.Net;
@@ -254,75 +254,75 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  Select **Save** to save the script.
 
-#### Task 3: Test function execution in the portal
+#### Task 3: Test function run in the portal
 
 1.  Select **Logs**.
 
-1.  Observe the compilation results. The results should include a **Compilation succeeded** message.
+1.  Observe the compilation results. The results should include a "Compilation succeeded" message.
 
-1.  Select **Run** to perform a test of the function.
+1.  Select **Run** to test the function.
 
-1.  Observe the results of the test execution. The results should echo the original request body exactly.
+1.  Observe the results of the test run. The results should echo the original request body exactly.
 
-#### Task 4: Get base function URL
+#### Task 4: Get a base function URL
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  From the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
 
-1.  From the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
+1.  On the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
 
-1.  From the **Function Apps** blade, copy the value of the **URL** field. You will use this value later in the lab.
+1.  On the **Function Apps** blade, copy the value of the **URL** text box. You'll use this value later in the lab.
 
-#### Task 5: Test function execution using httprepl
+#### Task 5: Test function run by using httprepl
 
 1.  On the taskbar, select the **Windows Terminal** icon.
 
-1.  At the open command prompt, enter the following command, and then select Enter to start the **httprepl** tool setting the base URI to the value of the **URL** you copied earlier in this lab.
+1.  At the open command prompt, enter the following command, and then select Enter to start the **httprepl** tool setting the base Uniform Resource Identifier (URI) to the value of the URL that you copied earlier in this lab.
 
     ```
     httprepl <function-app-url>
     ```
 
-    > **Note**: For example, if your **URL** is **https://funclogicstudent.azurewebsites.net**, your command would be **httprepl https://funclogicstudent.azurewebsites.net**.
+    > **Note**: For example, if your URL is **https://funclogicstudent.azurewebsites.net**, your command would be **httprepl https://funclogicstudent.azurewebsites.net**.
 
-1.  Within the tool prompt, enter the following command, and then select Enter to navigate to the relative **api** directory:
+1.  At the tool prompt, enter the following command, and then select Enter to browse to the relative **api** directory:
 
     ```
     cd api
     ```
 
-1.  Enter the following command, and then select Enter to navigate to the relative **echo** directory:
+1.  Enter the following command, and then select Enter to browse to the relative **echo** directory:
 
     ```
     cd echo
     ```
 
-1.  Enter the following command, and then select Enter to run the **post** command sending in a HTTP request body set to a numeric value of **3** using the **--content** option:
+1.  Enter the following command, and then select Enter to run the **post** command sending in an HTTP request body set to a numeric value of **3** by using the **--content** option:
 
     ```
     post --content 3
     ```
 
-1.  Enter the following command, and then select Enter to run the **post** command sending in a HTTP request body set to a numeric value of **5** using the **--content** option:
+1.  Enter the following command, and then select Enter to run the **post** command sending in an HTTP request body set to a numeric value of **5** by using the **--content** option:
 
     ```
     post --content 5
     ```
 
-1.  Enter the following command, and then select Enter to run the **post** command sending in a HTTP request body set to a string value of **Hello** using the **--content** option:
+1.  Enter the following command, and then select Enter to run the **post** command sending in an HTTP request body set to a string value of **Hello** by using the **--content** option:
 
     ```
     post --content "Hello"
     ```
 
-1.  Enter the following command, and then select Enter to run the **post** command sending in a HTTP request body set to a JSON value of **{"msg": "Successful"}** using the **--content** option:
+1.  Enter the following command, and then select Enter to run the **post** command sending in an HTTP request body set to a JavaScript Object Notation (JSON) value of **{"msg": "Successful"}** by using the **--content** option:
 
     ```
     post --content "{"msg": "Successful"}"
     ```
 
-1.  Enter the following command, and then select Enter to exit the **httprepl** applicaton:
+1.  Enter the following command, and then select Enter to exit the **httprepl** application:
 
     ```
     exit
@@ -330,23 +330,23 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 1.  Close the currently running Windows Terminal application.
 
-1.	Return to your browser window with the Azure portal.
+1.	Return to the browser window with the Azure portal.
 
 #### Review
 
-In this exercise, you created a basic function that echoes the content sent via a HTTP POST request.
+In this exercise, you created a basic function that echoes the content sent via an HTTP POST request.
 
-### Exercise 3: Create a function that is triggered on a schedule
+### Exercise 3: Create a function that triggers on a schedule
 
-#### Task 1: Create schedule-triggered function
+#### Task 1: Create a schedule-triggered function
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  From the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
 
-1.  From the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
+1.  On the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
 
-1.  From the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
+1.  On the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
 
 1.  In the **New Azure Function** quickstart, perform the following actions:
         
@@ -358,17 +358,17 @@ In this exercise, you created a basic function that echoes the content sent via 
     
     1.  In the **New Function** pop-up window, select **Create**.
 
-#### Task 2: Observe function executions
+#### Task 2: Observe function runs
 
 1.  In the function editor, select **Save** to persist the default function implementation.
 
 1.  Select **Logs**.
 
-1.  Observe the function execution that occurs approximately every **minute**. Each function execution should render a simple message to the log.
+1.  Observe the function run that occurs about every minute. Each function run should render a simple message to the log.
 
-#### Task 3: Update function integration configuration
+#### Task 3: Update the function integration configuration
 
-1.  Back in the **Function Apps** blade, perform the following actions:
+1.  Back on the **Function Apps** blade, perform the following actions:
 
     1.  Expand the node for the **funclogic\*** function app that you created earlier in this lab.
 
@@ -386,9 +386,9 @@ In this exercise, you created a basic function that echoes the content sent via 
 
     1.  Select **Save**.
 
-#### Task 4: Observe function executions
+#### Task 4: Observe function runs
 
-1.  Back in the **Function Apps** blade, perform the following actions:
+1.  Back on the **Function Apps** blade, perform the following actions:
 
     1.  Expand the node for the **funclogic\*** function app that you created earlier in this lab.
 
@@ -398,23 +398,23 @@ In this exercise, you created a basic function that echoes the content sent via 
 
 1.  In the function editor, select **Logs**.
 
-1.  Observe the function execution that now occurs approximately every **30 seconds**. Each function execution should render a simple message to the log.
+1.  Observe the function run that now occurs about every 30 seconds. Each function run should render a simple message to the log.
 
 #### Review
 
-In this exercise, you created a function that is executed automatically based on a fixed schedule.
+In this exercise, you created a function that runs automatically based on a fixed schedule.
 
 ### Exercise 4: Create a function that integrates with other services
 
-#### Task 1: Create HTTP-triggered function
+#### Task 1: Create an HTTP-triggered function
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  From the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
 
-1.  From the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
+1.  On the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
 
-1.  From the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
+1.  On the **Function Apps** blade, select the plus sign (**+**) next to the **Functions** drop-down list.
 
 1.  In the **New Azure Function** quickstart, perform the following actions:
         
@@ -460,15 +460,15 @@ In this exercise, you created a function that is executed automatically based on
     
     > **Note**: Wait for the blob to upload before you continue with this lab.
 
-#### Task 3: Configure HTTP-triggered function
+#### Task 3: Configure an HTTP-triggered function
 
 1.  In the Azure portal's navigation pane, select the **Resource groups** link.
 
-1.  From the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, find and then select the **Serverless** resource group that you created earlier in this lab.
 
-1.  From the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
+1.  On the **Serverless** blade, select the **funclogic\*** function app that you created earlier in this lab.
 
-1.  In the **Function Apps** blade, perform the following actions:
+1.  On the **Function Apps** blade, perform the following actions:
 
     1.  Expand the node for the **funclogic\*** function app that you created earlier in this lab.
 
@@ -480,7 +480,7 @@ In this exercise, you created a function that is executed automatically based on
 
 1.  In the **Integrate** section, perform the following actions to create a new input of type **Azure Blob Storage**:
 
-    1.  Select **+ New Input**.
+    1.  Select **New Input**.
 
     1.  Select **Azure Blob Storage**.
 
@@ -488,7 +488,7 @@ In this exercise, you created a function that is executed automatically based on
 
 1.  In the **Azure Blob Storage input** section, select **Install** to install the **Microsoft.Azure.WebJobs.Extensions.Storage** extension.
 
-    > **Note**: Wait for the function app to finish installing the extension before continuing with this lab. Installation can take 2-5 minutes.
+    > **Note**: Wait for the function app to finish installing the extension before continuing with this lab. Installation can take from 2 to 5 minutes.
 
 1.  Back in the **Azure Blob Storage input** section, perform the following actions:
 
@@ -500,7 +500,7 @@ In this exercise, you created a function that is executed automatically based on
 
     1.  Select **Save**.
 
-1.  Back in the **Integrate** section, select the existing **HTTP** trigger.
+1.  Back in the **Integrate** section, select the existing **HTTP trigger**.
 
 1.  In the **HTTP trigger** section, perform the following actions:
 
@@ -508,13 +508,13 @@ In this exercise, you created a function that is executed automatically based on
 
     1.  In the **Request parameter name** text box, enter the value **request**.
 
-    1.  In the **Selected HTTP methods** checkbox group, ensure only the **GET** option is selected.
+    1.  In the **Selected HTTP methods** check box group, ensure that only the **GET** option is selected.
 
     1.  Select **Save**.
 
 #### Task 4: Write function code
 
-1.  From the **Function Apps** blade, perform the following actions:
+1.  On the **Function Apps** blade, perform the following actions:
 
     1.  Expand the node for the **funclogic\*** function app that you created earlier in this lab.
 
@@ -522,7 +522,7 @@ In this exercise, you created a function that is executed automatically based on
 
     1.  Select the **GetSettingInfo** node for that specific function.
 
-1.  In the function editor, find the example function **run.csx** script:
+1.  In the function editor, find the example **run.csx** function script:
 
     ```
     #r "Newtonsoft.Json"
@@ -562,7 +562,7 @@ In this exercise, you created a function that is executed automatically based on
     using System.Net;
     ```
 
-1.  Add the following code block to create a new **public static** method named **Run** that returns a variable of type **IActionResult** and then that takes in variables of type **HttpRequest** and **string** as parameters named **request** and **json**.
+1.  Add the following code block to create a new **public static** method named **Run** that returns a variable of type **IActionResult** and that also takes in variables of type **HttpRequest** and **string** as parameters named *request* and *json*:
 
     ```
     public static IActionResult Run(HttpRequest request, string json)
@@ -570,13 +570,13 @@ In this exercise, you created a function that is executed automatically based on
     }
     ```
 
-1.  In the **Run** method, enter the following line of code to return the content of the **json** parameter as the HTTP response of the function:
+1.  In the **Run** method, enter the following line of code to return the content of the *json* parameter as the HTTP response of the function:
 
     ```
     return new OkObjectResult(json);
     ```
 
-1.  Observe the **run.csx** file editor, which should now include:
+1.  Observe the **run.csx** file, which should now include:
 
     ```
     using Microsoft.AspNetCore.Mvc;
@@ -590,25 +590,25 @@ In this exercise, you created a function that is executed automatically based on
 
 1.  Select **Save** to save the script.
 
-#### Task 5: Test function execution
+#### Task 5: Test function run
 
 1.  On the taskbar, select the **Windows Terminal** icon.
 
-1.  At the open command prompt, enter the following command, and then select Enter to start the **httprepl** tool setting the base URI to the value of the **URL** you copied earlier in this lab.
+1.  At the open command prompt, enter the following command, and then select Enter to start the **httprepl** tool setting the base URI to the value of the URL that you copied earlier in this lab.
 
     ```
     httprepl <function-app-url>
     ```
 
-    > **Note**: For example, if your **URL** is **https://funclogicstudent.azurewebsites.net**, your command would be **httprepl https://funclogicstudent.azurewebsites.net**.
+    > **Note**: For example, if your URL is **https://funclogicstudent.azurewebsites.net**, your command would be **httprepl https://funclogicstudent.azurewebsites.net**.
 
-1.  Within the tool prompt, enter the following command, and then select Enter to navigate to the relative **api** endpoint:
+1.  At the tool prompt, enter the following command, and then select Enter to browse to the relative **api** endpoint:
 
     ```
     cd api
     ```
 
-1.  Enter the following command, and then select Enter to navigate to the relative **getsettinginfo** endpoint:
+1.  Enter the following command, and then select Enter to browse to the relative **getsettinginfo** endpoint:
 
     ```
     cd getsettinginfo
@@ -636,7 +636,7 @@ In this exercise, you created a function that is executed automatically based on
     }
     ```
 
-1.  Enter the following command, and then select Enter to exit the **httprepl** applicaton:
+1.  Enter the following command, and then select Enter to exit the **httprepl** application:
 
     ```
     exit
@@ -644,11 +644,11 @@ In this exercise, you created a function that is executed automatically based on
 
 1.  Close the currently running Windows Terminal application.
 
-1.	Return to your browser window with the Azure portal.
+1.	Return to the browser window with the Azure portal.
 
 #### Review
 
-In this exercise, you created a function that returns the content of a JSON file in Azure Storage.
+In this exercise, you created a function that returns the content of a JSON file in Storage.
 
 ### Exercise 5: Clean up your subscription 
 
@@ -692,4 +692,4 @@ In this exercise, you created a function that returns the content of a JSON file
 
 #### Review
 
-In this exercise, you cleaned up your subscription by removing the resource group used in this lab.
+In this exercise, you cleaned up your subscription by removing the resource group that was used in this lab.
