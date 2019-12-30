@@ -5,7 +5,7 @@ lab:
     type: 'Answer Key'
 ---
 
-# Lab: Retrieving Azure Storage resources and metadata by using the .NET Core SDK
+# Lab: Retrieving Azure Storage resources and metadata by using the .NET SDK
 # Student lab answer key
 
 ## Microsoft Azure user interface
@@ -174,11 +174,11 @@ In this exercise, you created a new Storage account to use throughout the remain
 
 In this exercise, you created a couple of placeholder containers in the storage account and populated one of the containers with a blob.
 
-### Exercise 3: Access containers by using the Microsoft Software Development Kit (SDK) for .NET Core
+### Exercise 3: Access containers by using the Microsoft Software Development Kit (SDK) for .NET
 
-#### Task 1: Create .NET Core project
+#### Task 1: Create .NET project
 
-1.  From the **Start** screen, select the **Visual Studio Code** tile.
+1.  On the **Start** screen, select the **Visual Studio Code** tile.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -186,7 +186,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET Core project named **BlobManager** in the current folder:
+1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET project named **BlobManager** in the current folder:
 
     ```
     dotnet new console --name BlobManager --output .
@@ -202,7 +202,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
 
     > **Note**: The **dotnet add package** command will add the **Azure.Storage.Blobs** package from NuGet. For more information, go to [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs/12.0.0).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -358,7 +358,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -427,7 +427,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
 
 1.  In the **Visual Studio Code** window, right-click or access the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -443,7 +443,7 @@ In this exercise, you created a couple of placeholder containers in the storage 
 
 In this exercise, you accessed existing containers by using the Azure Storage SDK. 
 
-### Exercise 4: Retrieve blob Uniform Resource Identifiers (URIs) by using the .NET Core SDK
+### Exercise 4: Retrieve blob Uniform Resource Identifiers (URIs) by using the .NET SDK
 
 #### Task 1: Enumerate the blobs in an existing container by using the SDK
 
@@ -527,7 +527,7 @@ In this exercise, you accessed existing containers by using the Azure Storage SD
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -621,7 +621,7 @@ In this exercise, you accessed existing containers by using the Azure Storage SD
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -740,7 +740,7 @@ In this exercise, you accessed existing containers by using the Azure Storage SD
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run

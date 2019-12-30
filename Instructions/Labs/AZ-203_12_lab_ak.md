@@ -124,7 +124,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  In the **Publish** section, select **Code**.
 
-    1.  In the **Runtime stack** drop-down list, select **.NET Core 3.0 (current)**.
+    1.  In the **Runtime stack** drop-down list, select **.NET 3.0 (current)**.
 
     1.  In the **Operating System** section, select **Windows**.
 
@@ -202,7 +202,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 ### Exercise 2: Monitor a local web application by using Application Insights 
 
-#### Task 1: Build a .NET Core Web API project
+#### Task 1: Build a .NET Web API project
 
 1.  On the taskbar, select the **Visual Studio Code** icon.
 
@@ -212,7 +212,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 1.  In the **Visual Studio Code** window, right-click the Explorer pane or activate the shortcut menu, and then select **Open in Terminal**.
 
-1.  At the **Open** command prompt, enter the following command, and then select Enter to create a new .NET Core Web API application named **SimpleApi** in the current directory:
+1.  At the **Open** command prompt, enter the following command, and then select Enter to create a new .NET Web API application named **SimpleApi** in the current directory:
 
     ```
     dotnet new webapi --output . --name SimpleApi
@@ -224,7 +224,7 @@ In this exercise, you created the resources that you'll use for the remainder of
     dotnet add package Microsoft.ApplicationInsights.AspNetCore --version 2.8.2
     ```
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web app:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web app:
 
     ```
     dotnet build
@@ -277,7 +277,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 1.  Save the **Startup.cs** file.
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application.
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application.
 
     ```
     dotnet build
@@ -285,7 +285,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 #### Task 3: Test an API application locally
 
-1.  At the command prompt, enter the following command, and then select Enter to run the .NET Core web application.
+1.  At the command prompt, enter the following command, and then select Enter to run the .NET web application.
 
     ```
     dotnet run
@@ -317,7 +317,7 @@ In this exercise, you created the resources that you'll use for the remainder of
 
 #### Review
 
-In this exercise, you created an API by using ASP.NET Core and configured it to stream application metrics to Application Insights. You then used the Application Insights dashboard to get performance details about your API.
+In this exercise, you created an API by using ASP.NET and configured it to stream application metrics to Application Insights. You then used the Application Insights dashboard to get performance details about your API.
 
 ### Exercise 3: Monitor a web app using Application Insights
 
@@ -415,7 +415,7 @@ In this exercise, you created an API by using ASP.NET Core and configured it to 
 
     1.  Ensure that the **Application Insights** section is set to **Enabled**.
 
-    1.  In the **Instrument your application** section, select the **.NET Core** tab.
+    1.  In the **Instrument your application** section, select the **.NET** tab.
 
     1.  In the **Collection level** section, select **Recommended**.
 

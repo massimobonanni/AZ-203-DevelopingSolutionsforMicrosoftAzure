@@ -158,7 +158,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     1.  In the **Publish** section, select **Code**.
 
-    1.  In the **Runtime stack** drop-down list, select **.NET Core 3.0 (current)**.
+    1.  In the **Runtime stack** drop-down list, select **.NET 3.0 (current)**.
 
     1.  In the **Operating System** section, select **Windows**.
 
@@ -208,7 +208,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the **Properties** section, copy the value of the **URL** box. You'll use this value later in the lab.
 
-#### Task 6: Deploy an ASP.NET Core web application to Web Apps
+#### Task 6: Deploy an ASP.NET web application to Web Apps
 
 1.  On the taskbar, select the **Visual Studio Code** icon.
 
@@ -290,7 +290,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 #### Review
 
-In this exercise, you created a web app in Azure and then deployed your ASP.NET Core web application to Web Apps by using the Azure CLI and Apache Kudu zip file deployment utility.
+In this exercise, you created a web app in Azure and then deployed your ASP.NET web application to Web Apps by using the Azure CLI and Apache Kudu zip file deployment utility.
 
 ### Exercise 2: Build a front-end web application by using Azure Web Apps
 
@@ -320,7 +320,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
     1.  In the **Publish** section, select **Code**.
 
-    1.  In the **Runtime stack** drop-down list, select **.NET Core 3.0 (current)**.
+    1.  In the **Runtime stack** drop-down list, select **.NET 3.0 (current)**.
 
     1.  In the **Operating System** section, select **Windows**.
 
@@ -368,7 +368,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
   
     Wait for your application settings to persist before you move forward with the lab.
 
-#### Task 3: Deploy an ASP.NET Core web application to Web Apps
+#### Task 3: Deploy an ASP.NET web application to Web Apps
 
 1.  On the taskbar, select the **Visual Studio Code** icon.
 

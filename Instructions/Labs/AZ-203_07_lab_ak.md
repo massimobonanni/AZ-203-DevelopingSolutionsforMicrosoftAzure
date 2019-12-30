@@ -98,9 +98,9 @@ In this exercise, you created a new application registration and recorded import
 
 ### Exercise 2: Obtain a token by using the MSAL.NET library
 
-#### Task 1: Create a .NET Core project
+#### Task 1: Create a .NET project
 
-1.  From the **Start** screen, select the **Visual Studio Code** tile.
+1.  On the **Start** screen, select the **Visual Studio Code** tile.
 
 1.  On the **File** menu, select **Open Folder**.
 
@@ -108,7 +108,7 @@ In this exercise, you created a new application registration and recorded import
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET Core project named **GraphClient** in the current folder:
+1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET project named **GraphClient** in the current folder:
 
     ```
     dotnet new console --name GraphClient --output .
@@ -124,7 +124,7 @@ In this exercise, you created a new application registration and recorded import
 
     > **Note**: The **dotnet add package** command will add the **Microsoft.Identity.Client** package from NuGet. For more information, go to [Microsoft.Identity.Client](https://www.nuget.org/packages/Microsoft.Identity.Client/4.7.1).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -357,7 +357,7 @@ In this exercise, you created a new application registration and recorded import
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -415,7 +415,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
     > **Note**: The **dotnet add package** command will add the **Microsoft.Graph.Auth** package from NuGet. For more information, go to [Microsoft.Graph.Auth](https://www.nuget.org/packages/Microsoft.Graph.Auth/1.0.0-preview.2).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -600,7 +600,7 @@ In this exercise, you acquired a token from the Microsoft identity platform by u
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run

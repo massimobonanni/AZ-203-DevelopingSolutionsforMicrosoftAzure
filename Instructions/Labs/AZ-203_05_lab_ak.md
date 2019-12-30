@@ -224,7 +224,7 @@ In this exercise, you used Cloud Shell to create a VM as part of an automated sc
     cd ~/clouddrive/ipcheck
     ```
 
-1.  Enter the following command, and then select Enter to create a new .NET Core console application in the current directory:
+1.  Enter the following command, and then select Enter to create a new .NET console application in the current directory:
 
     ```
     dotnet new console --output . --name ipcheck
@@ -242,7 +242,7 @@ In this exercise, you used Cloud Shell to create a VM as part of an automated sc
     code .
     ```
 
-#### Task 2: Create and test a .NET Core application
+#### Task 2: Create and test a .NET application
 
 1.  In the graphical editor, find the FILES pane, and then open the **Program.cs** file to open it in the editor.
 
@@ -415,7 +415,7 @@ In this exercise, you used Cloud Shell to create a VM as part of an automated sc
 
 #### Review
 
-In this exercise, you created a .NET Core console application to display a machine’s current IP address. You then added the **Dockerfile** file to the application so that it could be converted into a Docker container image. Finally, you deployed the container image to Container Registry.
+In this exercise, you created a .NET console application to display a machine’s current IP address. You then added the **Dockerfile** file to the application so that it could be converted into a Docker container image. Finally, you deployed the container image to Container Registry.
 
 ### Exercise 3: Deploy an Azure container instance 
 

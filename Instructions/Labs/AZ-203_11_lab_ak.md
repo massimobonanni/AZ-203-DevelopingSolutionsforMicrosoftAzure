@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab: Asynchronously processing messages using Azure Storage Queues'
+    title: 'Lab: Asynchronously processing messages by using Azure Queue storage'
     module: 'Module 11: '
     type: 'Answer Key'
 ---
 
-# Lab: Asynchronously processing messages using Azure Storage Queues
+# Lab: Asynchronously processing messages by using Azure Storage Queues
 # Student lab answer key
 
 ## Microsoft Azure user interface
@@ -56,17 +56,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **All services**.
 
-1.  From the **All services** blade, select **Storage Accounts**.
+1.  On the **All services** blade, select **Storage Accounts**.
 
-1.  From the **Storage accounts** blade, get your list of storage account instances.
+1.  On the **Storage accounts** blade, get your list of storage account instances.
 
-1.  From the **Storage accounts** blade, select **Add**.
+1.  On the **Storage accounts** blade, select **Add**.
 
-1.  From the **Create storage account** blade, observe the tabs from the blade, such as **Basics**, **Tags**, and **Review + Create**.
+1.  On the **Create storage account** blade, observe the tabs on the blade, such as **Basics**, **Tags**, and **Review + Create**.
 
-    > **Note**: Each tab represents a step in the workflow to create a new storage account. At any time, you can select **Review + Create** to skip the remaining tabs.
+    > **Note**: Each tab represents a step in the workflow to create a new storage account. You can select **Review + Create** at any time to skip the remaining tabs.
 
-1.  Select the **Basics** tab, and in the tab area, perform the following actions:
+1.  Select the **Basics** tab, and then in the tab area, perform the following actions:
     
     1.  Leave the **Subscription** box set to its default value.
     
@@ -86,37 +86,37 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Review + Create**.
 
-1.  From the **Review + Create** tab, review the options that you specified in the previous steps.
+1.  On the **Review + Create** tab, review the options that you specified in the previous steps.
 
 1.  Select **Create** to create the storage account by using your specified configuration.
 
-1.  From the **Deployment** blade, wait for the creation task to complete before moving forward with this lab.
+    > **Note**: On the **Deployment** blade, wait for the creation task to complete before moving forward with this lab.
 
-1.	Select the **Go to resource** button from the **Deployment** blade to go to the newly created storage account.
+1.	Select the **Go to resource** button on the **Deployment** blade to go to the newly created storage account.
 
-1.	From the **Storage account** blade, find the **Settings** section, and then select **Access keys**.
+1.	On the **Storage account** blade, find the **Settings** section, and then select **Access keys**.
 
-1.	From the **Access keys** blade, select any one of the keys, and then record the value of either of the **Connection string** boxes. You'll use this value later in this lab.
+1.	On the **Access keys** blade, select any one of the keys, and then record the value of either of the **Connection string** boxes. You'll use this value later in this lab.
 
     > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
 #### Review
 
-In this exercise, you created a new Azure Storage account that you will use through the remainder of the lab.
+In this exercise, you created a new Azure Storage account that you'll use through the remainder of the lab.
 
-### Exercise 2: Configure Azure Storage SDK in .NET Core project 
+### Exercise 2: Configure the Azure Storage SDK in a .NET project 
 
-#### Task 1: Create .NET Core project
+#### Task 1: Create a .NET project
 
-1.  From the **Start** screen, select the **Visual Studio Code** tile.
+1.  On the **Start** screen, select the **Visual Studio Code** tile.
 
-1.  From the **File** menu, select **Open Folder**.
+1.  On the **File** menu, select **Open Folder**.
 
 1.  In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\MessageProcessor**, and then select **Select Folder**.
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET Core project named **MessageProcessor** in the current folder:
+1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET project named **MessageProcessor** in the current folder:
 
     ```
     dotnet new console --name MessageProcessor --output .
@@ -132,7 +132,7 @@ In this exercise, you created a new Azure Storage account that you will use thro
 
     > **Note**: The **dotnet add package** command will add the **Azure.Storage.Queues** package from NuGet. For more information, go to [Azure.Storage.Queues](https://www.nuget.org/packages/Azure.Storage.Queues/12.0.0).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -219,7 +219,7 @@ In this exercise, you created a new Azure Storage account that you will use thro
     QueueClient client = new QueueClient(storageConnectionString, queueName);  
     ```
 
-1.  In the **Main** method, add the following line of code to asynchronously create the queue if it does not already exist:
+1.  In the **Main** method, add the following line of code to asynchronously create the queue if it doesn't already exist:
 
     ```        
     await client.CreateAsync();
@@ -228,10 +228,10 @@ In this exercise, you created a new Azure Storage account that you will use thro
 1.  In the **Main** method, add the following line of code to render a header for the "Account Metadata" section:
 
     ```
-    Console.WriteLine($"---Account Metdata---");
+    Console.WriteLine($"---Account Metadata---");
     ```
     
-1.  In the **Main** method, add the following line of code to render the URI of the queue endpoint:
+1.  In the **Main** method, add the following line of code to render the Uniform Resource Identifier (URI) of the queue endpoint:
 
     ```
     Console.WriteLine($"Account Uri:\t{client.Uri}");
@@ -245,7 +245,7 @@ In this exercise, you created a new Azure Storage account that you will use thro
         QueueClient client = new QueueClient(storageConnectionString, queueName);        
         await client.CreateAsync();
 
-        Console.WriteLine($"---Account Metdata---");
+        Console.WriteLine($"---Account Metadata---");
         Console.WriteLine($"Account Uri:\t{client.Uri}");
     }
     ```
@@ -254,7 +254,7 @@ In this exercise, you created a new Azure Storage account that you will use thro
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -268,9 +268,9 @@ In this exercise, you created a new Azure Storage account that you will use thro
 
 #### Review
 
-In this exercise, you configured your .NET Core project to access the Azure Storage service and manipulate a queue made available through the service.
+In this exercise, you configured your .NET project to access the Storage service and manipulate a queue made available through the service.
 
-### Exercise 3: Add messages to queue 
+### Exercise 3: Add messages to the queue 
 
 #### Task 1: Write code to access queue messages
 
@@ -288,7 +288,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
         int batchSize = 10;
         ```
 
-    1.  Add the following line of code to create a variable of type **TimeSpan** named *visibilityTimeout* with a value of **two-and-a-half seconds**:
+    1.  Add the following line of code to create a variable of type **TimeSpan** named *visibilityTimeout* with a value of **2.5 seconds**:
 
         ```
         TimeSpan visibilityTimeout = TimeSpan.FromSeconds(2.5d);
@@ -296,7 +296,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  Within the **Main** method, perform the following actions to retrieve a batch of messages asynchronously from the queue service:
 
-    1.  Add the following line of code to invoke the **ReceiveMessagesAsync** asynchronous method of the **QueueClient** class passing in the **batchSize** and **visibilityTimeout** variables as parameters:
+    1.  Add the following line of code to invoke the **ReceiveMessagesAsync** asynchronous method of the **QueueClient** class, passing in the *batchSize* and *visibilityTimeout* variables as parameters:
 
         ```
         client.ReceiveMessagesAsync(batchSize, visibilityTimeout);
@@ -314,9 +314,9 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
         Response<QueueMessage[]> messages = await client.ReceiveMessagesAsync(batchSize, visibilityTimeout);
         ```
 
-1.  Within the **Main** method, perform the following actions to iterate over and render properties of each message:
+1.  Within the **Main** method, perform the following actions to iterate over and render the properties of each message:
 
-    1.  Add the following line of code to create a **foreach** loop that iterates over each message stored in the **[Value](https://docs.microsoft.com/dotnet/api/azure.response-1.value)** property of the *messages** variable of type **[QueueMessage[]](https://docs.microsoft.com/dotnet/api/azure.storage.queues.models.queuemessage)**:
+    1.  Add the following line of code to create a **foreach** loop that iterates over each message that's stored in the **[Value](https://docs.microsoft.com/dotnet/api/azure.response-1.value)** property of the *messages* variable of type **[QueueMessage[]](https://docs.microsoft.com/dotnet/api/azure.storage.queues.models.queuemessage)**:
 
         ```
         foreach(QueueMessage message in messages?.Value)
@@ -324,7 +324,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
         }
         ```
 
-    1.  Within the foreach loop, add another line of code to render the **MessageId** and **MessageText** properties of each **QueueMessage** instance:
+    1.  Within the **foreach** loop, add another line of code to render the **MessageId** and **MessageText** properties of each **QueueMessage** instance:
     
         ```
         Console.WriteLine($"[{message.MessageId}]\t{message.MessageText}");
@@ -354,7 +354,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -364,11 +364,11 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
-#### Task 2: Test queue message access
+#### Task 2: Test message queue access
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -376,7 +376,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-1.  Observe the output from the currently running console application. The output indicates that there are no messages in the queue.
+1.  Observe the output from the currently running console application. The output indicates that no messages are in the queue.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -392,33 +392,31 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  In the **Azure Storage Explorer** window, select **Open Azure Storage Explorer**.
 
-    > **Note**: If this is your first time opening the Azure Storage Explorer by using the portal, you might be prompted to allow the portal to open these types of links in the future. You should accept the prompt.
+    > **Note**: If this is your first time opening Storage Explorer by using the portal, you might be prompted to allow the portal to open these types of links in the future. You should accept the prompt.
 
-1.  In the **Azure Storage Explorer** application, locate and expand the **asyncstor\*** storage account that you created earlier in this lab.
+1.  In Storage Explorer, find and expand the **asyncstor\*** storage account that you created earlier in this lab.
 
-1.  Within the **asyncstor\*** storage account, locate and expand the **Queues** node.
+1.  Within the **asyncstor\*** storage account, find and expand the **Queues** node.
 
-1.  Within the **Queues** node, open the **messagequeue** queue that you created earlier in this lab using .NET Core code.
+1.  In the **Queues** node, open the **messagequeue** queue that you created earlier in this lab by using .NET code.
 
-1.  In the **messagequeue** tab, select **Add Message**.
+1.  On the **messagequeue** tab, select **Add Message**.
 
-1.  In the **Add Message** popup window, perform the following actions:
+1.  In the **Add Message** pop-up window, perform the following actions:
 
     1.  In the **Message text** text box, enter the value **Hello World**.
 
-    1.  In the **Expres in** text box, enter the value **12**.
+    1.  In the **Expires in** text box, enter the value **12**.
 
-    1.  In the **Expres in** drop-down list, select **Hours**.
+    1.  In the **Expires in** drop-down list, select **Hours**.
 
-    1.  Ensure the **Encode message boxy in Base64** checkbox is not selected.
+    1.  Ensure that the **Encode message body in Base 64** check box isn't selected.
 
     1.  Select **OK**.
 
-1.  Return to the **Visual Studio Code** application.
+1.  Return to the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
-
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -426,7 +424,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-1.  Observe the output from the currently running console application. The output includes the new message you created.
+1.  Observe the output from the currently running console application. The output includes the new message that you created.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
@@ -434,7 +432,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  In the Explorer pane of the **Visual Studio Code** window, open the **Program.cs** file.
 
-1.  On the code editor tab for the **Program.cs** file, locate the existing **foreach** loop within the **Main** method:
+1.  On the code editor tab for the **Program.cs** file, find the existing **foreach** loop within the **Main** method:
 
     ```
     foreach(QueueMessage message in messages?.Value)
@@ -443,7 +441,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
     }
     ```
 
-1.  Within the **foreach** loop, add a new line of code to invoke the **DeleteMessageAsync** method of the **QueueMessage** class passing in the **MessageId** and **PopReceipt** properties of the **message** variable:
+1.  Within the **foreach** loop, add a new line of code to invoke the **DeleteMessageAsync** method of the **QueueMessage** class, passing in the **MessageId** and **PopReceipt** properties of the *message* variable:
 
     ```
     await client.DeleteMessageAsync(message.MessageId, message.PopReceipt);
@@ -466,7 +464,7 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -474,33 +472,31 @@ In this exercise, you configured your .NET Core project to access the Azure Stor
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-1.  Observe the output from the currently running console application. The message you created earlier in the lab still exists because it had not been deleted previously.
+1.  Observe the output from the currently running console application. The message that you created earlier in the lab still exists because it hasn't been deleted previously.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
-1.  Return to the **Azure Storage Explorer** application.
+1.  Return Storage Explorer, and then find and expand the **asyncstor\*** storage account that you created earlier in this lab.
 
-1.  Within the the **Azure Storage Explorer** application, locate and expand the **asyncstor\*** storage account that you created earlier in this lab.
+1.  In the **asyncstor\*** storage account, find and expand the **Queues** node.
 
-1.  Within the **asyncstor\*** storage account, locate and expand the **Queues** node.
-
-1.  Within the **Queues** node, open the **messagequeue** queue that you created earlier in this lab using .NET Core code.
+1.  In the **Queues** node, open the **messagequeue** queue that you created earlier in this lab by using .NET code.
 
 1.  Observe the empty list of messages in the queue.
 
-    > **Note**: You may need to refresh the queue.
+    > **Note**: You might need to refresh the queue.
 
 #### Review
 
-In this exercise, you read and deleted existing messages from the Azure Storage queue using the .NET Core library.
+In this exercise, you read and deleted existing messages from the Storage queue by using the .NET library.
 
-### Exercise 4: Enqueue new messages using .NET Core
+### Exercise 4: Queue new messages by using .NET
 
 #### Task 1: Write code to create queue messages
 
 1.  In the Explorer pane of the **Visual Studio Code** window, open the **Program.cs** file.
 
-1.  On the code editor tab for the **Program.cs** file, locate the existing **Main** method.
+1.  On the code editor tab for the **Program.cs** file, find the existing **Main** method.
 
 1.  Within the **Main** method, add a new line of code to render a header for the "New Messages" section:
 
@@ -508,21 +504,21 @@ In this exercise, you read and deleted existing messages from the Azure Storage 
     Console.WriteLine($"---New Messages---");
     ```
 
-1.  Within the **Main** method, perform the following actions to create and send a message asynchronously:
+1.  In the **Main** method, perform the following actions to create and send a message asynchronously:
 
-    1.  Add the following line of code to create a new string variable named **greeting** with a value of **Hi, Developer**:
+    1.  Add the following line of code to create a new string variable named *greeting* with a value of **Hi, Developer!**:
 
         ```
         string greeting = "Hi, Developer!";        
         ```
 
-    1.  Add the following line of code to invoke the **SendMessageAsync** method of the **QueueClient** class using the **greeting** variable as a parameter
+    1.  Add the following line of code to invoke the **SendMessageAsync** method of the **QueueClient** class by using the *greeting* variable as a parameter
 
         ```
         await client.SendMessageAsync(greeting);        
         ```
 
-    1.  Add the following line of code to render the content of the message you sent:
+    1.  Add the following line of code to render the content of the message that you sent:
 
         ```
         Console.WriteLine($"Sent Message:\t{greeting}");        
@@ -545,7 +541,7 @@ In this exercise, you read and deleted existing messages from the Azure Storage 
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -553,27 +549,25 @@ In this exercise, you read and deleted existing messages from the Azure Storage 
 
     > **Note**: If there are any build errors, review the **Program.cs** file in the **Allfiles (F):\\Allfiles\\Labs\\11\\Solution\\MessageProcessor** folder.
 
-1.  Observe the output from the currently running console application. The content of the new message you sent should be included in the output.
+1.  Observe the output from the currently running console application. The content of the new message that you sent should be in the output.
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
-#### Task 2: View queue messages using Azure Storage Explorer
+#### Task 2: View queued messages by using Storage Explorer
 
-1.  Return to the **Azure Storage Explorer** application.
+1.  Return to Storage Explorer, and then find and expand the **asyncstor\*** storage account that you created earlier in this lab.
 
-1.  Within the the **Azure Storage Explorer** application, locate and expand the **asyncstor\*** storage account that you created earlier in this lab.
+1.  In the **asyncstor\*** storage account, find and expand the **Queues** node.
 
-1.  Within the **asyncstor\*** storage account, locate and expand the **Queues** node.
-
-1.  Within the **Queues** node, open the **messagequeue** queue that you created earlier in this lab using .NET Core code.
+1.  In the **Queues** node, open the **messagequeue** queue that you created earlier in this lab by using .NET code.
 
 1.  Observe the single new message in the list of messages in the queue.
 
-    > **Note**: You may need to refresh the queue.
+    > **Note**: You might need to refresh the queue.
 
 #### Review
 
-In this exercise, you created new messages in the queue using the .NET Core library for Azure Storage queues.
+In this exercise, you created new messages in the queue by using the .NET library for Storage queues.
 
 ### Exercise 5: Clean up your subscription 
 
@@ -585,7 +579,7 @@ In this exercise, you created new messages in the queue using the .NET Core libr
 
 1.  If this is your first time opening Cloud Shell using your subscription, you can use the **Welcome to Azure Cloud Shell Wizard** to configure Cloud Shell for first-time usage. Perform the following actions in the wizard:
     
-    1.  A dialog box prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**. 
+    - A dialog box prompts you to create a new storage account to begin using the shell. Accept the default settings, and then select **Create storage**. 
 
     > **Note**: Wait for Cloud Shell to finish its initial setup procedures before moving forward with the lab. If you don't notice Cloud Shell configuration options, this is most likely because you're using an existing subscription with this course's labs. The labs are written with the presumption that you're using a new subscription.
 
@@ -617,4 +611,4 @@ In this exercise, you created new messages in the queue using the .NET Core libr
 
 #### Review
 
-In this exercise, you cleaned up your subscription by removing the resource group used in this lab.
+In this exercise, you cleaned up your subscription by removing the resource group that was used in this lab.

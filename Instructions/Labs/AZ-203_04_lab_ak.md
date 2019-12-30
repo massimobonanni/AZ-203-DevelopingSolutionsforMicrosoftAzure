@@ -368,11 +368,11 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 In this exercise, you imported all the resources that you'll use with your web application.
 
-### Exercise 3: Open and configure a .NET Core web application
+### Exercise 3: Open and configure a .NET web application
 
 #### Task 1: Open and build the web application
 
-1.  From the **Start** screen, select the **Visual Studio Code** tile.
+1.  On the **Start** screen, select the **Visual Studio Code** tile.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -380,7 +380,7 @@ In this exercise, you imported all the resources that you'll use with your web a
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -438,7 +438,7 @@ In this exercise, you imported all the resources that you'll use with your web a
     cd .\AdventureWorks.Web\
     ```
 
-1.  At the command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -464,7 +464,7 @@ In this exercise, you imported all the resources that you'll use with your web a
 
 #### Review
 
-In this exercise, you configured your ASP.NET Core web application to connect to your resources in Azure.
+In this exercise, you configured your ASP.NET web application to connect to your resources in Azure.
 
 ### Exercise 4: Migrating SQL data to Azure Cosmos DB
 
@@ -472,7 +472,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 1.  In the **Visual Studio Code** window, access the shortcut menu or right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET Core project named **AdventureWorks.Migrate** in a folder with the same name:
+1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET project named **AdventureWorks.Migrate** in a folder with the same name:
 
     ```
     dotnet new console --name AdventureWorks.Migrate
@@ -518,7 +518,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
     > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -612,7 +612,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     cd .\AdventureWorks.Migrate\
     ```
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -652,7 +652,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     cd .\AdventureWorks.Migrate\
     ```
     
-1.  At the command prompt,  enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt,  enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -727,7 +727,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
     cd .\AdventureWorks.Migrate\
     ```
     
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -737,7 +737,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 #### Task 6: Perform a migration
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -789,7 +789,7 @@ In this exercise, you configured your ASP.NET Core web application to connect to
 
 In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB to migrate data from SQL Database to Azure Cosmos DB.
 
-### Exercise 5: Accessing Azure Cosmos DB by using .NET Core
+### Exercise 5: Accessing Azure Cosmos DB by using .NET
 
 #### Task 1: Update library with the Cosmos SDK and references
 
@@ -809,7 +809,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
     > **Note**: The **dotnet add package** command will add the **Microsoft.Azure.Cosmos** package from **NuGet**. For more information, go to: [Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos/3.4.1).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -817,7 +817,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
 1.  Select **Kill Terminal** or the **Recycle Bin** icon to close the currently open terminal and any associated processes.
 
-#### Task 2: Write .NET Core code to connect to Azure Cosmos DB
+#### Task 2: Write .NET code to connect to Azure Cosmos DB
 
 1.  In the Explorer pane of the **Visual Studio Code** window, expand the **AdventureWorks.Context** project.
 
@@ -981,7 +981,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
     cd .\AdventureWorks.Context\
     ```
     
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -1011,7 +1011,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
 
 1.  Save the **appsettings.json** file.
 
-#### Task 4: Update .NET Core application startup logic
+#### Task 4: Update .NET application startup logic
 
 1.  In the Explorer pane of the **Visual Studio Code** window, expand the **AdventureWorks.Web** project.
 
@@ -1062,7 +1062,7 @@ In this exercise, you used Entity Framework and the .NET SDK for Azure Cosmos DB
     cd .\AdventureWorks.Web\
     ```
 
-1.  At the command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run

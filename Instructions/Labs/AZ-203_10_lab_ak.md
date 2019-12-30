@@ -274,11 +274,11 @@ In this exercise, you created the Event Grid topic and Web App that you will use
 
 In this exercise, you created a new subscription, validated its registration and then recorded the credentials required to publish a new event to the topic.
 
-### Exercise 3: Publish Event Grid events from .NET Core
+### Exercise 3: Publish Event Grid events from .NET
 
-#### Task 1: Create .NET Core project
+#### Task 1: Create .NET project
 
-1.  From the **Start** screen, select the **Visual Studio Code** tile.
+1.  On the **Start** screen, select the **Visual Studio Code** tile.
 
 1.  From the **File** menu, select **Open Folder**.
 
@@ -286,7 +286,7 @@ In this exercise, you created a new subscription, validated its registration and
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET Core project named **EventPublisher** in the current folder:
+1.  At the open command prompt, enter the following command, and then select Enter to create a new .NET project named **EventPublisher** in the current folder:
 
     ```
     dotnet new console --name EventPublisher --output .
@@ -310,7 +310,7 @@ In this exercise, you created a new subscription, validated its registration and
 
     > **Note**: The **dotnet add package** command will add the **Bogus** package from NuGet. For more information, go to [Bogus](https://www.nuget.org/packages/Bogus/28.4.4).
 
-1.  At the command prompt, enter the following command, and then select Enter to build the .NET Core web application:
+1.  At the command prompt, enter the following command, and then select Enter to build the .NET web application:
 
     ```
     dotnet build
@@ -534,7 +534,7 @@ In this exercise, you created a new subscription, validated its registration and
 
 1.  In the **Visual Studio Code** window, right-click or activate the shortcut menu for the Explorer pane, and then select **Open in Terminal**.
 
-1.  At the open command prompt, enter the following command, and then select Enter to run the .NET Core web application:
+1.  At the open command prompt, enter the following command, and then select Enter to run the .NET web application:
 
     ```
     dotnet run
@@ -558,7 +558,7 @@ In this exercise, you created a new subscription, validated its registration and
 
 #### Review
 
-In this exercise, you published new events to your Event Grid topic using a .NET Core console application.
+In this exercise, you published new events to your Event Grid topic using a .NET console application.
 
 ### Exercise 4: Clean up your subscription 
 
