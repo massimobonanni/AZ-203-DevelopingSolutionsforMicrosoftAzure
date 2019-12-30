@@ -86,9 +86,9 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  On the **graphapp*yourname*** application registration blade, select **Overview**.
 
-1.  In the **Overview** section, find and record the value of the **Application (client) ID** box. You'll use this value later in the lab.
+1.  In the **Overview** section, find and record the value of the **Application (client) ID** text box. You'll use this value later in the lab.
 
-1.  In the **Overview** section, find and record the value of the **Directory (tenant) ID** box. You'll use this value later in the lab.
+1.  In the **Overview** section, find and record the value of the **Directory (tenant) ID** text box. You'll use this value later in the lab.
 
 1.  Close the currently open browser window.
 

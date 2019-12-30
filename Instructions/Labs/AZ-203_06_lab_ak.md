@@ -260,7 +260,7 @@ In this exercise, you created all the resources that you'll use for this lab.
     
     1.  Record the value of the **Secret Identifier** text box because you'll use this later in the lab.
 
-    > **Note**: You are recording the value of the **Secret Identifier** text box, not the **Secret Value** box.
+    > **Note**: You are recording the value of the **Secret Identifier** text box, not the **Secret Value** text box.
 
 #### Task 3: Configure a Key Vault access policy
 
@@ -318,11 +318,11 @@ In this exercise, you created a server-assigned managed service identity for you
     
     1.  In the **Add/Edit application setting** pop-up window, in the **Name** text box, enter **StorageConnectionString**.
     
-    1.  In the **Value** box, construct a value by using the following syntax: **@Microsoft.KeyVault(SecretUri=*Secret Identifier*)**
+    1.  In the **Value** text box, construct a value by using the following syntax: **@Microsoft.KeyVault(SecretUri=*Secret Identifier*)**
 
         > **Note**: You'll need to build a reference to your ***Secret Identifier*** by using the above syntax. For example, if your secret identifier is **https://securevaultstudent.vault.azure.net/secrets/storagecredentials/17b41386df3e4191b92f089f5efb4cbf**, then your value would be **@Microsoft.KeyVault(SecretUri=https://securevaultstudent.vault.azure.net/secrets/storagecredentials/17b41386df3e4191b92f089f5efb4cbf)**
     
-    1.  Leave the **deployment slot setting** box set to its default value.
+    1.  Leave the **deployment slot setting** text box set to its default value.
 
     1.  Select **OK** to close the pop-up window and return to the **Configuration** section.
     

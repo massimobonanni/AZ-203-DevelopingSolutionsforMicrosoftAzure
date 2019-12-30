@@ -48,11 +48,11 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
     > **Note**: If this is your first time signing in to the Azure portal, you will be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
 
-#### Task 2: Create an Azure web app resource by using an httpbin container image
+#### Task 2: Create a web app by using Azure App Service resource by using an httpbin container image
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  From the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
@@ -132,7 +132,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Web App** blade, in the **Settings** section, select the **Properties** link.
 
-1.  In the **Properties** section, record the value of the **URL** box. You'll use this value later in the lab to make requests against the API.
+1.  In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab to make requests against the API.
 
 #### Review
 
@@ -321,7 +321,7 @@ In this exercise, you created a new Azure web app by using a container image sou
 
     1.  Select **Trace**.
 
-    1.  Observe the content in the **Backend** and **Outbound** boxes.
+    1.  Observe the content in the **Backend** and **Outbound** text boxes.
 
 #### Review
 

@@ -70,7 +70,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Select the **Basics** tab, and in the tab area, perform the following actions:
     
-    1.  Leave the **Subscription** box set to its default value.
+    1.  Leave the **Subscription** text box set to its default value.
     
     1.  In the **Resource group** section, select **Create new**, enter **ManagedPlatform**, and then select **OK**.
     
@@ -136,7 +136,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  From the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
@@ -198,7 +198,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  In the **Value** text box, enter the storage connection string that you copied earlier in this lab.
     
-    1.  Leave the **Deployment slot setting** box set to its default value, and then select **OK** to close the pop-up dialog and return to the **Configuration** section.
+    1.  Leave the **Deployment slot setting** text box set to its default value, and then select **OK** to close the pop-up dialog and return to the **Configuration** section.
     
     1.  Select **Save** from the blade to persist your settings.
   
@@ -206,7 +206,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Web App** blade in the **Settings** section, select the **Properties** link.
 
-1.  In the **Properties** section, copy the value of the **URL** box. You'll use this value later in the lab.
+1.  In the **Properties** section, copy the value of the **URL** text box. You'll use this value later in the lab.
 
 #### Task 6: Deploy an ASP.NET web application to Web Apps
 
@@ -298,7 +298,7 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  From the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
@@ -358,9 +358,9 @@ In this exercise, you created a web app in Azure and then deployed your ASP.NET 
     
     1.  In the **Value** text box, enter the web app URL that you copied earlier in this lab.
 
-        > **Note**: Make sure you include the protocol, such as **https://**, in the URL that you copy into the **Value** box for this application setting.
+        > **Note**: Make sure you include the protocol, such as **https://**, in the URL that you copy into the **Value** text box for this application setting.
     
-    1.  Leave the **Deployment slot setting** box set to its default value.
+    1.  Leave the **Deployment slot setting** text box set to its default value.
 
     1.  Select **OK** to close the pop-up dialog, and then return to the **Configuration** section.
     

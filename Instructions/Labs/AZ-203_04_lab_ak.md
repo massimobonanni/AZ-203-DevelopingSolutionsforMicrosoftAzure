@@ -144,7 +144,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Azure Cosmos DB account** blade, find the **Settings** section from the blade, and then select the **Keys** link.
 
-1.  In the Keys pane, record the value in the **PRIMARY CONNECTION STRING** box. You'll use this value later in this lab.
+1.  In the Keys pane, record the value in the **PRIMARY CONNECTION STRING** text box. You'll use this value later in this lab.
 
 #### Task 4: Create an Azure Storage account resource
 
@@ -216,7 +216,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **Container** blade, find the **Settings** section from the blade, and then select the **Properties** link.
 
-1.  In the Properties pane, record the value in the **URL** box. You'll use this value later in this lab.
+1.  In the Properties pane, record the value in the **URL** text box. You'll use this value later in this lab.
 
 1.  Find and select the **Overview** link from the blade.
 
@@ -292,7 +292,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
     1.  In the **Database name** text box, enter **AdventureWorks**.
 
-    1.  Leave the **Collation** box set to its default value.
+    1.  Leave the **Collation** text box set to its default value.
 
     1.  In the **Server admin login** text box, enter **testuser**.
     
@@ -324,7 +324,7 @@ In this exercise, you created all the Azure resources that you'll need for a pol
 
 1.  From the **SQL database** blade, find the **Settings** section from the blade, and then select the **Connection strings** link.
 
-1.  In the Connection strings pane, record the value in the **ADO.NET (SQL Authentication)** box. You'll use this value later in this lab.
+1.  In the Connection strings pane, record the value in the **ADO.NET (SQL Authentication)** text box. You'll use this value later in this lab.
 
 1.  Update the connection string that you recorded by performing the following actions:
 

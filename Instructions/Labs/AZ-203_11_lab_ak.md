@@ -68,7 +68,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Select the **Basics** tab, and then in the tab area, perform the following actions:
     
-    1.  Leave the **Subscription** box set to its default value.
+    1.  Leave the **Subscription** text box set to its default value.
     
     1.  In the **Resource group** section, select **Create new**, enter **AsyncProcessor**, and then select **OK**.
     

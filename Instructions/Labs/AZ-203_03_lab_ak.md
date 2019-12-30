@@ -98,7 +98,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  On the **Storage account** blade, find the **Settings** section, and then select the **Properties** link.
 
-1.  In the **Properties** section, record the value of the **Primary Blob Service Endpoint** box.
+1.  In the **Properties** section, record the value of the **Primary Blob Service Endpoint** text box.
 
     > **Note**: You'll use this value later in the lab.
 
@@ -106,7 +106,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the **Access keys** section, perform the following actions:
 
-    1.  Record the value in the **Storage account name** box.
+    1.  Record the value in the **Storage account name** text box.
     
     1.  Select any one of the keys, and then record the value in either of the **Key** boxes.
 

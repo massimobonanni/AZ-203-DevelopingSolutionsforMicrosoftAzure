@@ -58,7 +58,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  From the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Insights**, and then select Enter.
 
@@ -96,13 +96,13 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **Application Insights** blade, in the **Configure** category, select the **Properties** link.
 
-1.  In the **Properties** section, find the value of the **Instrumentation Key** box. This key is used by client applications to connect to Application Insights.
+1.  In the **Properties** section, find the value of the **Instrumentation Key** text box. This key is used by client applications to connect to Application Insights.
 
-#### Task 3: Create an Azure Web Apps resource
+#### Task 3: Create a web app by using Azure App Services resource
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  From the **New** blade, find the **Search the Marketplace** box.
+1.  From the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
@@ -168,7 +168,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  From the **App Service** blade, in the **Settings** category, select the **Properties** link.
 
-1.  In the **Properties** section, record the value of the **URL** box. You'll use this value later in the lab to make requests against the API.
+1.  In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab to make requests against the API.
 
 #### Task 4: Configure web app autoscale options
 
@@ -178,17 +178,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Custom autoscale**.
     
-    1.  In the **Autoscale setting name** box, enter **ComputeScaler**.
+    1.  In the **Autoscale setting name** text box, enter **ComputeScaler**.
     
     1.  In the **Resource group** list, select **MonitoredAssets**.
     
     1.  In the **Scale mode** section, select **Scale based on a metric**.
     
-    1.  In the **Minimum** box in the **Instance limits** section, enter **2**.
+    1.  In the **Minimum** text box in the **Instance limits** section, enter **2**.
     
-    1.  In the **Maximum** box in the **Instance limits** section, enter **8**.
+    1.  In the **Maximum** text box in the **Instance limits** section, enter **8**.
     
-    1.  In the **Default** box in the **Instance limits** section, enter **3**.
+    1.  In the **Default** text box in the **Instance limits** section, enter **3**.
     
     1.  Select **Add a rule**. In the **Scale rule** pop-up dialog, leave all boxes set to their default values, and then select **Add**.
     

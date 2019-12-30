@@ -96,7 +96,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
         az provider list --query "[].namespace"
         ```
 
-    1.  Observe the list of currently registered providers. The **Microsoft.CDN** provider isn't currently in the list of providers.
+    1.  Observe the list of currently registered providers. The **Microsoft.EventGrid** provider isn't currently in the list of providers.
 
     1.  Enter the following command, and then select Enter to get the required flags to register a new provider:
 
@@ -116,7 +116,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  On the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Event Grid**, and then select Enter.
 
@@ -140,7 +140,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  In the Azure portal's navigation pane, select **Create a resource**.
 
-1.  On the **New** blade, find the **Search the Marketplace** box.
+1.  On the **New** blade, find the **Search the Marketplace** text box.
 
 1.  In the search box, enter **Web**, and then select Enter.
 
@@ -206,7 +206,7 @@ In this exercise, you created the Event Grid topic and Web App that you will use
 
 1.  On the **App Service** blade, in the **Settings** category, select the **Properties** link.
 
-1.  In the **Properties** section, record the value of the **URL** box. You'll use this value later in the lab.
+1.  In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab.
 
 1.  Select **Overview**.
 
@@ -268,7 +268,7 @@ In this exercise, you created the Event Grid topic and Web App that you will use
 
 1.  In the **Settings** category, select the **Access keys** link.
 
-1.  In the **Access keys** section, record the value of the **Key 1** box. You'll use this value later in the lab.
+1.  In the **Access keys** section, record the value of the **Key 1** text box. You'll use this value later in the lab.
 
 #### Review
 
