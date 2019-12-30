@@ -50,7 +50,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Enter the password for your Microsoft account, and then select **Sign in**.
 
-    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour and begin using the portal.
+    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. Select **Get Started** to skip the tour.
 
 #### Task 2: Create an API Management resource
 
@@ -70,7 +70,7 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Leave the **Subscription** text box set to its default value.
     
-    1.  In the **Resource group** section, select **Create new** and then enter the value **AutomatedWorkflow** in the text box.
+    1.  In the **Resource group** section, select **Create new**, and then in the text box, enter **AutomatedWorkflow**.
     
     1.  In the **Location** list, select **East US**.
     
@@ -78,31 +78,29 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Leave the **Administrator email** text box set to its default value.
     
-    1.  In the **Pricing tier** list, select **Consumption (99.9 SLA, %)**.
+    1.  In the **Pricing tier** list, select **Consumption (99.9 SLA, %)**, and then select **Create**.
     
-    1.  Select **Create**.
+    > **Note**: Wait for Azure to finish creating the API Management resource prior to moving on in the lab. You will receive a notification when the resource is created.
 
-    > **Note**: Wait for Azure to finish creating the API Management resource prior to moving forward with the lab. You will receive a notification when the resource is created.
+#### Task 3: Create a Logic App resource
 
-#### Task 3: Create a Logic Apps resource
-
-1.  In the navigation pane of the portal, select **+ Create a resource**.
+1.  In the navigation pane of the Azure portal, select **+ Create a resource**.
 
 1.  On the **New** blade, locate the **Search the Marketplace** field.
 
-1.  In the search field, enter **Logic** and select Enter.
+1.  In the search field, enter **Logic**, and then select Enter.
 
-1.  In the **Everything** search results blade, select the **Logic App** result.
+1.  On the **Everything** search results blade, select **Logic App**.
 
-1.  In the **Logic App** blade, select **Create**.
+1.  On the **Logic App** blade, select **Create**.
 
-1.  In the **Logic App** blade, perform the following actions:
+1.  On the **Logic App** blade, perform the following actions:
     
-    1.  In the **Name** field, enter **prodflow*yourname***.
+    1.  In the **Name** field, enter **prodflow*yourname***. 
     
     1.  Leave the **Subscription** field set to its default value.
     
-    1.  In the **Resource group** list, select **Use existing** and then select the **AutomatedWorkflow** group you created earlier in the lab.
+    1.  In the **Resource group** list, select **Use existing**, and then select the **AutomatedWorkflow** group you created earlier in the lab.
     
     1.  In the **Location** list, select **East US**.
     
@@ -110,19 +108,17 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
     
     1.  Select **Create**.
 
-    > **Note**: Wait for Azure to finish creating the Logic Apps resource prior to moving forward with the lab. You will receive a notification when the resource is created.
+    > **Note**: Wait for Azure to finish creating the Logic Apps resource prior to moving on in the lab. You will receive a notification when the resource is created.
 
-#### Task 4: Create a Storage account
+#### Task 4: Create a storage account
 
-1.  In the Azure portal's navigation pane, select **All services**.
+1.  In the Azure portal navigation pane, select **All services**.
 
 1.  On the **All services** blade, select **Storage Accounts**.
 
-1.  On the **Storage accounts** blade, get your list of storage account instances.
+1.  On the **Storage accounts** blade, get your list of storage account instances, and then select **Add**.
 
-1.  On the **Storage accounts** blade, select **Add**.
-
-1.  On the **Create storage account** blade, observe the tabs on the blade, such as **Basics**, **Tags**, and **Review + Create**.
+1.  On the **Create storage account** blade, review the tabs on the blade, such as **Basics**, **Tags**, and **Review + Create**.
 
     > **Note**: Each tab represents a step in the workflow to create a new storage account. You can select **Review + Create** at any time to skip the remaining tabs.
 
@@ -150,25 +146,25 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.  Select **Create** to create the storage account by using your specified configuration.
 
-    > **Note**: On the **Deployment** blade, wait for the creation task to complete before moving forward with this lab.
+    > **Note**: On the **Deployment** blade, wait for the creation task to complete before moving on in this lab.
 
-#### Task 5: Upload content to file share in Azure Storage
+#### Task 5: Upload content to an Azure Storage file share
 
-1.  In the Azure portal's navigation pane, select the **Resource groups** link.
+1.  In the Azure portal navigation pane, select the **Resource groups** link.
 
 1.  On the **Resource groups** blade, find and then select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
 1.  On the **AutomatedWorkflow** blade, select the **prodstor\*** storage account that you created earlier in this lab.
 
-1.  On the **Storage account** blade, select the **File shares** link in the **File service** section.
+1.  On the **Storage account** blade, in the **File service** section, select the **File shares** link.
 
 1.  In the **File shares** section, select **+ File share**.
 
-1.  In the **File share** pop-up window, perform the following actions:
+1.  In the **File share** pop-up dialog box, perform the following actions:
     
     1.  In the **Name** text box, enter **metadata**.
     
-    1.  In the **Quota** text box, enter **1** (GiB).
+    1.  In the **Quota** text box, enter **1** (GB).
     
     1.  Select **Create**.
 
@@ -176,11 +172,21 @@ Find the taskbar on your Windows 10 desktop. The taskbar contains the icons for 
 
 1.	On the **File share** blade, select **Upload**.
 
-1.	In the **Upload files** window, perform the following actions:
+1.	In the **Upload files** dialog box, perform the following actions:
 
     1.  In the **Files** section, select the **Folder** icon.
 
-    1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\09\\Starter**, select the **item_00.json**, **item_01.json**, **item_02.json**, **item_03.json** and **item_04.json** files, and then select **Open**.
+    1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\09\\Starter**, select the following files, and then select **Open**:
+
+        -   **item_00.json**
+        
+        -   **item_01.json**
+        
+        -   **item_02.json**
+        
+        -   **item_03.json**
+        
+        -   **item_04.json** 
 
     1.  Ensure that the **Overwrite if files already exist** check box is selected, and then select **Upload**. 
     
@@ -194,13 +200,13 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 #### Task 1: Create a trigger for the workflow
 
-1.  In the navigation pane of the portal, select **Resource groups**.
+1.  In the Azure portal navigation pane, select **Resource groups**.
 
-1.  In the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
-1.  In the **AutomatedWorkflow** blade, select the **prodflow\*** logic app that you created earlier in this lab.
+1.  On the **AutomatedWorkflow** blade, select the **prodflow\*** logic app that you created earlier in this lab.
 
-1.  In the **Logic Apps Designer** blade, select the **Blank Logic App** template.
+1.  On the **Logic Apps Designer** blade, select the **Blank Logic App** template.
 
 1.  In the **Designer** area, perform the following actions to add a **When a HTTP request is received (Request)** trigger:
     
@@ -218,9 +224,7 @@ In this exercise, you created all the resources that you'll use for this lab.
 
 #### Task 2: Create an action to query Azure Storage file shares
 
-1.  In the **Designer** area, select **+ New step**.
-
-1.  In the **Designer** area, perform the following actions to add an **List files (Azure File Storage)** action:
+1.  In the **Designer** area, select **+ New step**, and then perform the following actions to add a **List files (Azure File Storage)** action:
     
     1.  In the **Search connectors and triggers** field, enter **files**.
     
@@ -230,17 +234,13 @@ In this exercise, you created all the resources that you'll use for this lab.
     
     1.  In the **Connection Name** field, enter **filesConnection**.
     
-    1.  In the **Storage Account** section, select the **prodstor*yourname*** storage account that you created earlier in this lab.
-    
-    1.  Select **Create**.
+    1.  In the **Storage Account** section, select the **prodstor*yourname*** storage account that you created earlier in this lab, and then select **Create**.
     
     1.  Wait for the connector resource to finish creating.
 
         > **Note**: These resources take one to five minutes to create.
 
-1.  In the **List files** area, perfom the following actions to configure the **List files (Azure File Storage)** action:
-    
-    1.  In the **Folder** text box, enter **/metadata**.
+1.  In the **List files** area, in the **Folder** text box, enter **/metadata**.
     
 #### Task 3: Create an action to project list item properties
 
@@ -254,53 +254,51 @@ In this exercise, you created all the resources that you'll use for this lab.
     
     1.  In the **Actions** result list, select **Select**.
 
-1.  In the **Select** area, perfom the following actions to configure the **Select (Data Operations)** action:
+1.  In the **Select** area, perform the following actions to configure the **Select (Data Operations)** action:
     
-    1.  On the **Body** field, in the **Dynamic content** pane, within the **List files** category, select **value**.
-
-    1.  On the **Map** field, select **Switch to text mode**.
-
-    1.  On the **Map** field, in the **Dynamic content** pane, within the **List files** category, select **Name**. 
-
-#### Task 4: Build a HTTP response action
-
-1.  In the **Designer** area, select **+ New step**.
-
-1.  In the **Designer** area, perform the following actions to add a **Response (Request)** action:
+    1.  In the **Body** field, in the **Dynamic content** list, within the **List files** category, select **value**. 
     
+    1.  In the **Map** field, select **Switch to text mode**.
+
+    1.  In the **Map** field, in the **Dynamic content** list, within the **List files** category, select **Name**.
+    
+#### Task 4: Build an HTTP response action
+
+1.  In the **Designer** area, select **+ New step**, and then perform the following actions to add a **Response (Request)** action:
+ 
     1.  In the **Search connectors and triggers** field, enter **response**.
     
     1.  In the category list, select **Request**.
     
     1.  In the **Actions** result list, select **Response**.
 
-1.  In the **Response** area, perfom the following actions to configure the **Response (Request)** action:
+1.  In the **Response** area, perform the following actions to configure the **Response (Request)** action:
 
     1.  In the **Status Code** text box, enter **200**.
 
-    1.  On the **Body** field, in the **Dynamic content** pane, within the **Output** category, select **Select**.
+    1.  On the **Body** field, in the **Dynamic content** list, within the **Output** category, select **Select**.
 
 1.  In the **Designer** area, select **Save**.
 
 #### Review
 
-In this exercise, you built a basic workflow that starts when it is triggered by a HTTP GET request, queries a storage service, enumerates the results, and then returns those results as a HTTP response.
+In this exercise, you built a basic workflow that starts when it's triggered by an HTTP GET request. It then queries a storage service, enumerates the results, and then returns those results as an HTTP response.
 
 ### Exercise 3: Use Azure API Management as a proxy for Logic Apps
 
 #### Task 1: Create a new product
 
-1.  In the navigation pane of the portal, select **Resource groups**.
+1.  In the Azure portal navigation pane, select **Resource groups**.
 
-1.  In the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
+1.  On the **Resource groups** blade, select the **AutomatedWorkflow** resource group that you created earlier in this lab.
 
-1.  In the **AutomatedWorkflow** blade, select the **prodapim\*** API Management resource that you created earlier in this lab.
+1.  On the **AutomatedWorkflow** blade, select the **prodapim\*** API Management resource that you created earlier in this lab.
 
 1.  From the **API Management Service** blade, in the **API Management** section, select **Products**.
 
 1.  In the **Products** section, select **+ Add**.
 
-1.  In the **Add product** popup dialog, perform the following actions:
+1.  In the **Add product** dialog box, perform the following actions:
 
     1.  In the **Display name** text box, enter **Free**.
 
@@ -310,23 +308,23 @@ In this exercise, you built a basic workflow that starts when it is triggered by
 
     1.  In the **State** section, select **Published**.
 
-    1.  Ensure the **Requires subscription** checkbox is not selected.
+    1.  Ensure that the **Requires subscription** check box is cleared.
 
     1.  Select **Create**.
 
-#### Task 2: Create API integrated with Logic Apps
+#### Task 2: Create an API integrated with Logic Apps
 
-1.  Back in the **API Management Service** blade, in the **API Management** section, select **APIs**.
+1.  On the **API Management Service** blade, in the **API Management** section, select **APIs**.
 
 1.  In the **Add a new API** section, select **Logic App**.
 
-1.  In the **Create a blank API** window, perform the following actions:
+1.  In the **Create a blank API** dialog box, perform the following actions:
 
     1.  Select **Full**.
 
     1.  In the **Logic App** section, select **Browse**. 
     
-    1.  In the **Select Logic App to import** popup window, select the **prodflow*yourname*** Logic App you created earlier in this lab and then select **Select**.
+    1.  In the **Select Logic App to import** dialog box, select the **prodflow*yourname*** Logic App that you created earlier in this lab, and then select **Select**.
     
     1.  In the **Display name** text box, enter **Metadata Lookup**.
     
@@ -338,7 +336,7 @@ In this exercise, you built a basic workflow that starts when it is triggered by
 
     1.  In the **Products** list, select **Free**.
 
-    1.  Select **Create**.
+    1.  Select **Create**. 
 
     > **Note**: Wait for the new API to finish being created.
 
@@ -346,11 +344,11 @@ In this exercise, you built a basic workflow that starts when it is triggered by
 
 1.  From the **Design** tab, select **Test**.
 
-1.  In the **Test** tab, perform the following actions:
+1.  On the **Test** tab, perform the following actions:
 
     1.  Select the single **GET** operation.
 
-    1.  Copy the value of the **Request URL** field. You will use this value later in the lab.
+    1.  Copy the value of the **Request URL** field. (You will use this value later in the lab.)
 
     1.  Select **Send**.
 
@@ -374,7 +372,7 @@ In this exercise, you built a basic workflow that starts when it is triggered by
     get
     ```
 
-1.  Observe the JSON content of the response from the function app, which should now include:
+1.  Observe the JSON response content from the function app, which should now include:
 
     ```
     [ 
@@ -386,7 +384,7 @@ In this exercise, you built a basic workflow that starts when it is triggered by
     ]
     ```
 
-1.  Enter the following command, and then select Enter to exit the **httprepl** applicaton:
+1.  Enter the following command, and then select Enter to exit the **httprepl** application:
 
     ```
     exit
@@ -394,7 +392,7 @@ In this exercise, you built a basic workflow that starts when it is triggered by
 
 1.  Close the currently running Windows Terminal application.
 
-1.	Return to your browser window with the Azure portal.
+1.	Return to your browser window with  Azure portal.
 
 #### Review
 
@@ -404,9 +402,9 @@ In this exercise, you used Azure API Management as a proxy to trigger your Logic
 
 #### Task 1: Open Cloud Shell and list resource groups
 
-1.  In the portal, select the **Cloud Shell** icon to open a new shell instance.
+1.  In Azure portal, select the **Cloud Shell** icon to open a new shell instance.
 
-1.  At the **Cloud Shell** command prompt in the portal, enter the following command, and then select Enter to list all resource groups in the subscription:
+1.  In the Azure portal, at the **Cloud Shell** command prompt, enter the following command, and then select Enter to list all resource groups in the subscription:
 
     ```
     az group list
@@ -426,7 +424,7 @@ In this exercise, you used Azure API Management as a proxy to trigger your Logic
     az group delete --name AutomatedWorkflow --no-wait --yes
     ```
 
-1.  Close the Cloud Shell pane in the portal.
+1.  Close the Cloud Shell pane.
 
 #### Task 3: Close the active applications
 

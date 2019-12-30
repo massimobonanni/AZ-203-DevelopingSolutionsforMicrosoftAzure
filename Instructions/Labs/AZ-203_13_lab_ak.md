@@ -389,7 +389,13 @@ In this exercise, you registered the resource provider for Content Delivery Netw
     
     1.  In the **Files** section, select the **Folder** icon.
     
-    1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\13\\Starter**, select the **campus.jpg**, **conference.jpg**, and **poster.jpg** files, and then select **Open**.
+    1.  In the **File Explorer** window, browse to **Allfiles (F):\\Allfiles\\Labs\\13\\Starter**, select the following files, and then select **Open**:
+
+        -   **campus.jpg**
+        
+        -   **conference.jpg**
+        
+        -   **poster.jpg**
     
     1.  Ensure that **Overwrite if files already exist** is selected, and then select **Upload**.  
 
